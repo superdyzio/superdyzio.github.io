@@ -19,6 +19,8 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 8. Czy AI przejmie Twój soft house?
 9. DDD na froncie + krótkie case study
    1. (EN version) DDD at the front + short case study
+10. Testy mutacyjne - trochę teorii i trochę praktyki ze Stryker.js
+11. Intro to Angular 18
 
 ## Activities and appearances
 
@@ -26,12 +28,26 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] Mentor @ [BKI Hack hackathon](https://bkihack.pl/)
 
 ### 2024
+- [PL] [Toruń Web Development Meetup #2 (now: GDG Toruń)](https://crossweb.pl/wydarzenia/torun-web-development-meetup-2/) (#2)
+- [PL] [Codefrenzy 2024](https://crossweb.pl/wydarzenia/codefrenzy-2024/) (#9)
 - [PL] [Synergy Codes' "Dev in 5 minutes" episode about Slack features](https://www.youtube.com/watch?v=-XywVCYFM0o&list=PLJB1QdtU1vs-CzGyra6xchMek5MglGx5t&index=3&ab_channel=SynergyCodes)
 --- [short no. 1](https://www.youtube.com/shorts/MqAF0TteTgk)
 --- [short no. 2](https://www.instagram.com/reel/C4iKJ_dsy_3/?hl=pl)
+- [PL] [Śląska Grupa Microsoft](https://www.youtube.com/watch?v=-PGcGUfjJRE&t=2s&ab_channel=SlaskaGrupaMicrosoft) (#2)
 - [PL] [Synergy Codes' reel about Gallup talent: Strategic](https://www.instagram.com/reel/C4u6UolMoAb/?hl=pl)
 - [PL] [Angular Wrocław #39](https://www.meetup.com/angularwroclaw/events/301151447/?eventOrigin=group_events_list) (#8)
-- [PL] Mentor and judge @ [HackYeah hackathon](https://hackyeah.pl/pl/)
+- [PL] Mentor and judge @ [HackYeah hackathon](https://hackyeah.pl/pl/) + mentoring couple of teams after the event
+- [PL] 2x [WSB Merito Akademia Project Managera](https://www.merito.pl/poznan/studia-i-szkolenia/studia-podyplomowe/kierunki/zarzadzanie-projektem-akademia-project-managera-0) - conducting one day of workshops about Agile methodologies, MVP, identifying personas, project roadmaps etc.
+- [EN] [Warsaw IT Days 2024](https://warszawskiedniinformatyki.pl/en/) (#9)
+- [PL] [Infoshare Katowice 2024](https://katowice.infoshare.pl/) (#9)
+- [PL] [Merge IT #4](https://www.youtube.com/watch?v=DxT3jKdO2Ng&ab_channel=mergeIT) (#10)
+- [PL] [GDG Toruń](https://crossweb.pl/wydarzenia/at-an-angle-into-angular-18/) (#11)
+- [PL] [#10 Gdańsk TypeScript meetup](https://www.youtube.com/watch?v=X4iQxlq0irY&ab_channel=EscolaAI) (#9)
+- [PL] [#12 Gdańsk TypeScript meetup](https://www.youtube.com/live/xrCgvfS5xLU?si=u3CgkZCvVd4sT_Nh&t=7810) (#10)
+- [PL] 4 Developers 2024 (#8)
+- [PL] 4 Developers Katowice (#10)
+- [PL] 4 Developers Wrocław (#10)
+- [PL] 4 Developers Łódź (#10)
 
 ### 2023
 - [PL] [BFC Fiesta 2023](https://www.youtube.com/watch?v=IC0CZfiEZCk&ab_channel=BoredFoundersClub) (#6)
@@ -51,7 +67,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] 4 Developers Poznań (#4)
 - [PL] 4 Developers Wrocław (#4) --- [Michał's vlog](https://www.youtube.com/watch?v=QPi0C9xW9AM&ab_channel=Micha%C5%82Bia%C5%82ecki)
 - [PL] 4 Developers Łódź (#2)
-- [PL] [4 Developers Łódź](https://www.youtube.com/watch?v=zWWUdhTewCE&list=PLnKL6-WWWE_WGVQynCR2WrC2P0_OsGq_r&index=13&t=80s&ab_channel=PROIDEAEvents) (#4)
+- [PL] [4 Developers Łódź](https://www.youtube.com/watch?v=zWWUdhTewCE&list=PLnKL6-WWWE_WGVQynCR2WrC2P0_OsGq_r&index=13&ab_channel=PROIDEAEvents) (#4)
 - [PL] [4 Developers Łódź](https://www.youtube.com/watch?v=vn-_GzQlduY&list=PLnKL6-WWWE_WGVQynCR2WrC2P0_OsGq_r&index=17&ab_channel=PROIDEAEvents) (#9)
 
 ### 2022
@@ -65,7 +81,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] Web3 topic as a devmeeting in another company (#3)
 - [PL] [Synergy Codes x Just Join IT: Article - case study of our failure while building component library](https://justjoin.it/blog/nie-wymyslaj-sobie-wymagan-krotka-historia-naszego-babola)
 --- [EN version](https://www.synergycodes.com/blog/do-not-make-up-your-own-requirements-a-short-story-of-our-howler)
-- [PL] [Synergy Codes x Just Join IT: Webinar](https://www.youtube.com/watch?v=lBgcqzjTBfg&t=19s&ab_channel=JustJoinIT) (#2)
+- [PL] [Synergy Codes x Just Join IT: Webinar](https://www.youtube.com/watch?v=lBgcqzjTBfg&ab_channel=JustJoinIT) (#2)
 - [PL] [Synergy Cafe about Async JS - Push vs. Pull](https://www.youtube.com/watch?v=mYWXk05zkWo&list=PLJB1QdtU1vs-UovIT7kQi6YAuHPa99Lte&index=3&ab_channel=SynergyCodes)
 --- [short no. 1](https://www.youtube.com/shorts/eWL0QHTPJpo)
 --- [short no. 2](https://www.youtube.com/shorts/V0qvN-NUPhQ)
