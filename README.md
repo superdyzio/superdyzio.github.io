@@ -37,8 +37,10 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 --- [short no. 2](https://www.instagram.com/reel/C4iKJ_dsy_3/?hl=pl)
 - [PL] [Śląska Grupa Microsoft](https://www.youtube.com/watch?v=-PGcGUfjJRE&t=2s&ab_channel=SlaskaGrupaMicrosoft) (#2)
 - [PL] [Synergy Codes' reel about Gallup talent: Strategic](https://www.instagram.com/reel/C4u6UolMoAb/?hl=pl)
+- [PL] Leading "Synergy Speakers" - internal public speaking mentoring in Synergy Codes
+- [PL] 2x individual public speaking mentoring
 - [PL] [Angular Wrocław #39](https://www.meetup.com/angularwroclaw/events/301151447/?eventOrigin=group_events_list) (#8)
-- [PL] Mentor and judge @ [HackYeah hackathon](https://hackyeah.pl/pl/) + mentoring couple of teams after the event
+- [PL] Mentor and judge @ [HackYeah hackathon](https://hackyeah.pl/pl/) + mentoring session with six teams after the event
 - [PL] 2x [WSB Merito Akademia Project Managera](https://www.merito.pl/poznan/studia-i-szkolenia/studia-podyplomowe/kierunki/zarzadzanie-projektem-akademia-project-managera-0) - conducting one day of workshops about Agile methodologies, MVP, identifying personas, project roadmaps etc.
 - [EN] [Warsaw IT Days 2024](https://warszawskiedniinformatyki.pl/en/) (#9)
 - [PL] [Infoshare Katowice 2024](https://katowice.infoshare.pl/) (#9)
@@ -61,6 +63,8 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] [Frontend Architecture podcast about frontend state management](https://www.youtube.com/watch?v=lA8UHKyWjVE&list=PLJB1QdtU1vs-x2I9pbC3anN3_rufFxyKO)
 - [EN] [Synergy Codes' article about internal public speaking workshops I was hosting for almost two years](https://www.synergycodes.com/blog/how-to-boost-public-speaking-skills)
 - [PL] [Synergy Codes' reel about Gallup talent: Learner](https://www.instagram.com/reel/CrdBBcAAja7/?hl=pl)
+- [PL] Leading "Synergy Speakers" - internal public speaking mentoring in Synergy Codes
+- [PL] Individual public speaking mentoring
 - [PL] Mentor and judge @ [HackYeah hackathon](https://hackyeah.pl/pl/)
 - [PL] [Angular Wrocław #35](https://www.meetup.com/angularwroclaw/events/295774941/?eventOrigin=group_events_list) (#4)
 --- [behind the scenes](https://www.youtube.com/watch?v=DkaTYhU3p4M&ab_channel=SynergyCodes)
@@ -90,6 +94,8 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 --- [short no. 2](https://www.youtube.com/shorts/V0qvN-NUPhQ)
 - [EN] [Test Dive 2022](https://www.youtube.com/watch?v=CX7y2SqZif4&ab_channel=TestDiveConference) (#3)
 - [PL] Synergy Codes Afterhours: series of four internal talks on basics of investing and money management (#7)
+- [PL] Leading "Synergy Speakers" - internal public speaking mentoring in Synergy Codes
+- [PL] (charity auction) Career mentoring for person entering IT
 
 ### 2021
 - [EN] [First episode of Synergy Cafe about Angular vs. React (my first time, I'm basically reading)](https://www.youtube.com/watch?v=ahLaM8By0lI&list=PLJB1QdtU1vs-UovIT7kQi6YAuHPa99Lte&ab_channel=SynergyCodes)
@@ -97,6 +103,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] [Synergy Codes x Just Join IT: Article - performance comparison Angular vs. React](https://justjoin.it/blog/angular-vs-react-ktora-z-technologii-jest-wydajniejsza)
 - [PL] [Synergy Codes x Just Join IT: Webinar](https://www.youtube.com/watch?v=YPrFyhiGLcs&list=PLJB1QdtU1vs-x2I9pbC3anN3_rufFxyKO&index=10&ab_channel=JustJoinIT) (#1)
 - [PL] [Video course on E2E tests: Protractor, Cypress, Cucumber (outdated)](https://videopoint.pl/kurs/testy-e2e-kurs-video-protractor-cypress-cucumber-dawid-perdek,vrodop.htm)
+- [PL] Leading "Synergy Speakers" - internal public speaking mentoring in Synergy Codes
 
 ### 2020
 - [EN] [Synergy Codes' article on me transforming the way we do retrospectives soon after joining the team](https://www.synergycodes.com/blog/a-newcomer-on-board-concerns-or-wind-in-the-sails)
