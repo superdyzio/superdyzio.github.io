@@ -26,6 +26,8 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 
 ### 2025
 - [PL] Mentor @ [BKI Hack hackathon](https://bkihack.pl/)
+- [PL] [#14 Gdańsk Typescript meetup](https://www.meetup.com/gdansk-typescript/events/306376219/) (#8)
+- [PL] [Boiling Frogs](https://2025.boilingfrogs.pl/) (#8)
 
 ### 2024
 - [PL] [Toruń Web Development Meetup #2 (now: GDG Toruń)](https://crossweb.pl/wydarzenia/torun-web-development-meetup-2/) (#2)
@@ -48,6 +50,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] 4 Developers Katowice (#10)
 - [PL] 4 Developers Wrocław (#10)
 - [PL] 4 Developers Łódź (#10) + program committee (Frontend track)
+- [PL] Reviewer of [Horyzont Lidera](https://horyzontlidera.pl/)
 
 ### 2023
 - [PL] [BFC Fiesta 2023](https://www.youtube.com/watch?v=IC0CZfiEZCk&ab_channel=BoredFoundersClub) (#6)
