@@ -28,6 +28,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] Mentor @ [BKI Hack hackathon](https://bkihack.pl/)
 - [PL] [#14 Gdańsk Typescript meetup](https://www.meetup.com/gdansk-typescript/events/306376219/) (#8)
 - [PL] [Boiling Frogs](https://2025.boilingfrogs.pl/) (#8)
+- [PL] [#60 Meet.js Poznań](https://crossweb.pl/en/events/meet-js-poznan-03-2025-60/) (#8)
 
 ### 2024
 - [PL] [Toruń Web Development Meetup #2 (now: GDG Toruń)](https://crossweb.pl/wydarzenia/torun-web-development-meetup-2/) (#2)
