@@ -52,7 +52,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] 4 Developers 2024 (#8)
 - [PL] 4 Developers Katowice (#10)
 - [PL] 4 Developers Wrocław (#10)
-- [PL] 4 Developers Łódź (#10) + program committee (Frontend track)
+- [PL] 4 Developers Łódź (#10) + program committee (Architecture track)
 - [PL] Reviewer of [Horyzont Lidera](https://horyzontlidera.pl/)
 
 ### 2023
