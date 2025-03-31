@@ -21,6 +21,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
    1. (EN version) DDD at the front + short case study
 10. Testy mutacyjne - trochę teorii i trochę praktyki ze Stryker.js
 11. Intro to Angular 18
+12. 5 sposobów na uwalenie startupu
 
 ## Activities and appearances
 
@@ -29,6 +30,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] [#14 Gdańsk Typescript meetup](https://www.meetup.com/gdansk-typescript/events/306376219/) (#8)
 - [PL] [Boiling Frogs](https://2025.boilingfrogs.pl/) (#8)
 - [PL] [#60 Meet.js Poznań](https://crossweb.pl/en/events/meet-js-poznan-03-2025-60/) (#8)
+- [PL] [20. Studencki Festiwal Informatyczny](https://sfi.pl/pl) (#12) + acting as a host for couple of talks
 
 ### 2024
 - [PL] [Toruń Web Development Meetup #2 (now: GDG Toruń)](https://crossweb.pl/wydarzenia/torun-web-development-meetup-2/) (#2)
