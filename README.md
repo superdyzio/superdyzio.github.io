@@ -30,7 +30,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] [#14 Gdańsk Typescript meetup](https://www.meetup.com/gdansk-typescript/events/306376219/) (#8)
 - [PL] [Boiling Frogs](https://2025.boilingfrogs.pl/) (#8)
 - [PL] [#60 Meet.js Poznań](https://crossweb.pl/en/events/meet-js-poznan-03-2025-60/) (#8)
-- [PL] [20. Studencki Festiwal Informatyczny](https://sfi.pl/pl) (#12) + acting as a host for couple of talks
+- [PL] [20. Studencki Festiwal Informatyczny](https://sfi.pl/pl) (#12) + acting as a host for a couple of talks
 - [PL] [ngŁodź #17](https://www.meetup.com/pl-PL/ng-lodz/) (#2)
 
 ### 2024
@@ -45,7 +45,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] 2x individual public speaking mentoring
 - [PL] [Angular Wrocław #39](https://www.meetup.com/angularwroclaw/events/301151447/?eventOrigin=group_events_list) (#8)
 - [PL] Mentor and judge @ [HackYeah hackathon](https://hackyeah.pl/pl/) + mentoring session with six teams after the event
-- [PL] 2x [WSB Merito Akademia Project Managera](https://www.merito.pl/poznan/studia-i-szkolenia/studia-podyplomowe/kierunki/zarzadzanie-projektem-akademia-project-managera-0) - conducting one day of workshops about Agile methodologies, MVP, identifying personas, project roadmaps etc.
+- [PL] 2x [WSB Merito Akademia Project Managera](https://www.merito.pl/poznan/studia-i-szkolenia/studia-podyplomowe/kierunki/zarzadzanie-projektem-akademia-project-managera-0) - conducting one day of workshops about Agile methodologies, MVP, identifying personas, project roadmaps, Event Storming, User Story Mapping, etc.
 - [EN] [Warsaw IT Days 2024](https://warszawskiedniinformatyki.pl/en/) (#9)
 - [PL] [Infoshare Katowice 2024](https://katowice.infoshare.pl/) (#9)
 - [PL] [Merge IT #4](https://www.youtube.com/watch?v=DxT3jKdO2Ng&ab_channel=mergeIT) (#10)
