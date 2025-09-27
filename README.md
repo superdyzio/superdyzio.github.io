@@ -33,6 +33,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] [20. Studencki Festiwal Informatyczny](https://sfi.pl/pl) (#12) + acting as a host for a couple of talks
 - [PL] [ngŁodź #17](https://www.meetup.com/ng-lodz/events/307300288/) (#2)
 - [PL] [ngKato #6](https://www.meetup.com/ngkato/events/307420140/) (#8)
+- [EN] [Angular Summer Camp 2025 Beach Edition](https://www.meetup.com/angular-warsaw/events/310498423/) panelist in two discussion panels: "Evolution of Signal-based APIs" and "AI in Angular Development"
 
 ### 2024
 - [PL] [Toruń Web Development Meetup #2 (now: GDG Toruń)](https://crossweb.pl/wydarzenia/torun-web-development-meetup-2/) (#2)
