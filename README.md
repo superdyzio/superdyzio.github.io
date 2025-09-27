@@ -38,6 +38,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [EN] [Angular Summer Camp 2025 Beach Edition](https://www.meetup.com/angular-warsaw/events/310498423/) panelist in two discussion panels: "Evolution of Signal-based APIs" and "AI in Angular Development"
 - [PL] [GDG Toruń](https://www.meetup.com/toru%C5%84-web-development/events/310732606/) (#13)
 - [PL] [PHPers Wrocław #23](https://phpers.pl/meetup/2025/09/23/phpers-wroclaw-23/) (#14)
+- [PL] [Beyond Code](https://www.beyondcode.pl/) (#14) + panelist in two discussion panels: "Kreatywność poza schematami" and "AI w codziennej pracy developera"
 
 ### 2024
 - [PL] [Toruń Web Development Meetup #2 (now: GDG Toruń)](https://crossweb.pl/wydarzenia/torun-web-development-meetup-2/) (#2)
