@@ -32,6 +32,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] [#60 Meet.js Poznań](https://crossweb.pl/en/events/meet-js-poznan-03-2025-60/) (#8)
 - [PL] [20. Studencki Festiwal Informatyczny](https://sfi.pl/pl) (#12) + acting as a host for a couple of talks
 - [PL] [ngŁodź #17](https://www.meetup.com/ng-lodz/events/307300288/) (#2)
+- [PL] [ngKato #6](https://www.meetup.com/ngkato/events/307420140/) (#8)
 
 ### 2024
 - [PL] [Toruń Web Development Meetup #2 (now: GDG Toruń)](https://crossweb.pl/wydarzenia/torun-web-development-meetup-2/) (#2)
