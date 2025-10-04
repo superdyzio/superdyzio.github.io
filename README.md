@@ -40,6 +40,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] [PHPers Wrocław #23](https://phpers.pl/meetup/2025/09/23/phpers-wroclaw-23/) (#14)
 - [PL] [Beyond Code](https://www.beyondcode.pl/) (#14) + panelist in two discussion panels: "Kreatywność poza schematami" and "AI w codziennej pracy developera"
 - [PL] Mentor, judge & speaker @ [HackYeah hackathon](https://hackyeah.pl/pl/) (#12)
+- [PL] general support to [Angular Wrocław](https://www.meetup.com/pl-PL/angularwroclaw/) organizers
 
 ### 2024
 - [PL] [Toruń Web Development Meetup #2 (now: GDG Toruń)](https://crossweb.pl/wydarzenia/torun-web-development-meetup-2/) (#2)
@@ -65,6 +66,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] 4 Developers Wrocław (#10)
 - [PL] 4 Developers Łódź (#10) + program committee (Architecture track)
 - [PL] Reviewer of [Horyzont Lidera](https://horyzontlidera.pl/)
+- [PL] general support to [Angular Wrocław](https://www.meetup.com/pl-PL/angularwroclaw/) organizers
 
 ### 2023
 - [PL] [BFC Fiesta 2023](https://www.youtube.com/watch?v=IC0CZfiEZCk&ab_channel=BoredFoundersClub) (#6)
@@ -88,6 +90,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] 4 Developers Łódź (#2)
 - [PL] [4 Developers Łódź](https://www.youtube.com/watch?v=zWWUdhTewCE&list=PLnKL6-WWWE_WGVQynCR2WrC2P0_OsGq_r&index=13&ab_channel=PROIDEAEvents) (#4)
 - [PL] [4 Developers Łódź](https://www.youtube.com/watch?v=vn-_GzQlduY&list=PLnKL6-WWWE_WGVQynCR2WrC2P0_OsGq_r&index=17&ab_channel=PROIDEAEvents) (#9)
+- [PL] general support to [Angular Wrocław](https://www.meetup.com/pl-PL/angularwroclaw/) organizers
 
 ### 2022
 - [EN] [Synergy Codes' article about recruitment process in which I was heavily involved](https://www.synergycodes.com/blog/effective-recruitment-process-through-the-eyes-of-synergy-codes)
