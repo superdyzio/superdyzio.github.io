@@ -40,7 +40,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] [GDG Toruń](https://www.meetup.com/toru%C5%84-web-development/events/310732606/) (#13)
 - [PL] [PHPers Wrocław #23](https://phpers.pl/meetup/2025/09/23/phpers-wroclaw-23/) (#14)
 - [PL] [Beyond Code](https://www.beyondcode.pl/) (#14) + panelist in two discussion panels: "Kreatywność poza schematami" and "AI w codziennej pracy developera"
-- [PL] Mentor, judge & speaker @ [HackYeah hackathon](https://hackyeah.pl/pl/) (#12)
+- [PL] Mentor, lead judge & speaker @ [HackYeah hackathon](https://hackyeah.pl/pl/) (#12)
 - [PL] general support to [Angular Wrocław](https://www.meetup.com/pl-PL/angularwroclaw/) organizers
 
 ### 2024
@@ -54,7 +54,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] Leading "Synergy Speakers" - internal public speaking mentoring in Synergy Codes
 - [PL] 2x individual public speaking mentoring
 - [PL] [Angular Wrocław #39](https://www.meetup.com/angularwroclaw/events/301151447/?eventOrigin=group_events_list) (#8)
-- [PL] Mentor and judge @ [HackYeah hackathon](https://hackyeah.pl/pl/) + mentoring session with six teams after the event
+- [PL] Mentor and lead judge @ [HackYeah hackathon](https://hackyeah.pl/pl/) + mentoring session with six teams after the event
 - [PL] 2x [WSB Merito Akademia Project Managera](https://www.merito.pl/poznan/studia-i-szkolenia/studia-podyplomowe/kierunki/zarzadzanie-projektem-akademia-project-managera-0) - conducting one day of workshops about Agile methodologies, MVP, identifying personas, project roadmaps, Event Storming, User Story Mapping, etc.
 - [EN] [Warsaw IT Days 2024](https://warszawskiedniinformatyki.pl/en/) (#9)
 - [PL] [Infoshare Katowice 2024](https://katowice.infoshare.pl/) (#9)
