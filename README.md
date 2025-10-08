@@ -42,6 +42,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] [Beyond Code](https://www.beyondcode.pl/) (#14) + panelist in two discussion panels: "Kreatywność poza schematami" and "AI w codziennej pracy developera"
 - [PL] Mentor, lead judge & speaker @ [HackYeah hackathon](https://hackyeah.pl/pl/) (#12)
 - [PL] general support to [Angular Wrocław](https://www.meetup.com/pl-PL/angularwroclaw/) organizers
+- [PL] pitching [Followuper](https://www.followuper.pl/) at [PitchMeetUp](https://pitchmeetup.pl/)
 
 ### 2024
 - [PL] [Toruń Web Development Meetup #2 (now: GDG Toruń)](https://crossweb.pl/wydarzenia/torun-web-development-meetup-2/) (#2)
