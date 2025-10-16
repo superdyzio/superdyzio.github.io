@@ -24,6 +24,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 12. 5 sposobów na uwalenie startupu
 13. Angular Forms Showdown: Template vs. Reactive vs. Signal
 14. Czego rapujący prawnik nauczy Cię o programowaniu?
+15. Jak projektowana jest elektronika, której używasz na co dzień?
 
 ## Activities and appearances
 
@@ -43,6 +44,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] Mentor, lead judge & speaker @ [HackYeah hackathon](https://hackyeah.pl/pl/) (#12)
 - [PL] general support to [Angular Wrocław](https://www.meetup.com/pl-PL/angularwroclaw/) organizers
 - [PL] pitching [Followuper](https://www.followuper.pl/) at [PitchMeetUp](https://pitchmeetup.pl/)
+- [PL] [SysOps/DevOps Katowice MeetUp #21](https://www.meetup.com/pl-PL/sysopskato/events/310984770/) (#15)
 
 ### 2024
 - [PL] [Toruń Web Development Meetup #2 (now: GDG Toruń)](https://crossweb.pl/wydarzenia/torun-web-development-meetup-2/) (#2)
