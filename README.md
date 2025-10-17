@@ -45,6 +45,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] general support to [Angular Wrocław](https://www.meetup.com/pl-PL/angularwroclaw/) organizers
 - [PL] pitching [Followuper](https://www.followuper.pl/) at [PitchMeetUp](https://pitchmeetup.pl/)
 - [PL] [SysOps/DevOps Katowice MeetUp #21](https://www.meetup.com/pl-PL/sysopskato/events/310984770/) (#15)
+- [PL] [4 Developers Katowice](https://4developers.org.pl/4developers-katowice-2025/) (#15) + moderator of the discussion panel "Przyszłość napędzana technologią: energetyka, elektronika, automatyka, AI, software." + program committee (Future Industry track) 
 
 ### 2024
 - [PL] [Toruń Web Development Meetup #2 (now: GDG Toruń)](https://crossweb.pl/wydarzenia/torun-web-development-meetup-2/) (#2)
