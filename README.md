@@ -44,7 +44,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] Mentor, lead judge & speaker @ [HackYeah hackathon](https://hackyeah.pl/pl/) (#12)
 - [PL] general support to [Angular Wrocław](https://www.meetup.com/pl-PL/angularwroclaw/) organizers
 - [PL] pitching [Followuper](https://www.followuper.pl/) at [PitchMeetUp](https://pitchmeetup.pl/)
-- [PL] [SysOps/DevOps Katowice MeetUp #21](https://www.meetup.com/pl-PL/sysopskato/events/310984770/) (#15)
+- [PL] [SysOps/DevOps Katowice MeetUp #21](https://www.youtube.com/watch?v=NCulfWc9r7Q) (#15)
 - [PL] [4 Developers Katowice](https://4developers.org.pl/4developers-katowice-2025/) (#15) + moderator of the discussion panel "Przyszłość napędzana technologią: energetyka, elektronika, automatyka, AI, software." + program committee (Future Industry track)
 - [PL] Online Mentor @ [BKI Hack hackathon](https://bkihack.pl/history/2-torunski-hackathon)
 
