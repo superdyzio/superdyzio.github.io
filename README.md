@@ -5,26 +5,26 @@ There will be a blog here, I promise! For now though it's only a list of my talk
 ## Talks
 _I'd be very happy to visit your event or company with one of these, just [let me know](https://www.linkedin.com/in/perdekdawid) if you're interested._
 
-1. Kiedy Angular i React są śrubokrętem, a kiedy wkrętarką? 
-2. Mapa dobrych praktyk wytwarzania oprogramowania
-   1. (EN version) You're on a quest for good software quality and here's your map
-3. My first (well tested) smart contract!
-   1. (PL version) Twoja pierwsza aplikacja web3
-4. Angular Signals: A komu to potrzebne? A dlaczego?
-5. Event Storming w służbie tokenomii
-   1. (EN version) How Event Storming can serve tokenomics?
-6. "Musisz Tylko" Design czyli jak utrudniamy sobie pracę
-   1. (EN version) "You Just Have To" Design: How we make our lives more difficult?
-7. Wstęp do inwestowania (4-częściowa seria dla tych co nie wiedzą czy i jak się za to zabrać)
-8. Czy AI przejmie Twój soft house?
-9. DDD na froncie + krótkie case study
-   1. (EN version) DDD at the front + short case study
-10. Testy mutacyjne - trochę teorii i trochę praktyki ze Stryker.js
-11. Intro to Angular 18
-12. 5 sposobów na uwalenie startupu
-13. Angular Forms Showdown: Template vs. Reactive vs. Signal
-14. Czego rapujący prawnik nauczy Cię o programowaniu?
-15. Jak projektowana jest elektronika, której używasz na co dzień?
+1. [PL] Kiedy Angular i React są śrubokrętem, a kiedy wkrętarką? 
+2. [PL] Mapa dobrych praktyk wytwarzania oprogramowania
+   1. [EN] You're on a quest for good software quality and here's your map
+3. [EN] My first (well tested) smart contract!
+   1. [PL] Twoja pierwsza aplikacja web3
+4. [PL] Angular Signals: A komu to potrzebne? A dlaczego?
+5. [PL] Event Storming w służbie tokenomii
+   1. [EN] How Event Storming can serve tokenomics?
+6. [PL] "Musisz Tylko" Design czyli jak utrudniamy sobie pracę
+   1. [EN] "You Just Have To" Design: How we make our lives more difficult?
+7. [PL] Wstęp do inwestowania (4-częściowa seria dla tych co nie wiedzą czy i jak się za to zabrać)
+8. [PL] Czy AI przejmie Twój soft house?
+9. [PL] DDD na froncie + krótkie case study
+   1. [EN] DDD at the front + short case study
+10. [PL] Testy mutacyjne - trochę teorii i trochę praktyki ze Stryker.js
+11. [PL] Intro to Angular 18
+12. [PL] 5 sposobów na uwalenie startupu
+13. [PL] Angular Forms Showdown: Template vs. Reactive vs. Signal
+14. [PL] Czego rapujący prawnik nauczy Cię o programowaniu?
+15. [PL] Jak projektowana jest elektronika, której używasz na co dzień?
 
 ## Activities and appearances
 
