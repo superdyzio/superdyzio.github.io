@@ -22,7 +22,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 10. [PL] Testy mutacyjne - trochę teorii i trochę praktyki ze Stryker.js
 11. [PL] Intro to Angular 18
 12. [PL] 5 sposobów na uwalenie startupu
-13. [PL] Angular Forms Showdown: Template vs. Reactive vs. Signal
+13. [PL/EN] Angular Forms Showdown: Template vs. Reactive vs. Signal
 14. [PL] Czego rapujący prawnik nauczy Cię o programowaniu?
 15. [PL] Jak projektowana jest elektronika, której używasz na co dzień?
 
@@ -49,6 +49,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] Online Mentor @ [BKI Hack hackathon](https://bkihack.pl/history/2-torunski-hackathon)
 - [PL] [meet.js Gdansk TypeScript Meetup #17](https://www.youtube.com/live/NQS12C5droM?si=FU9Xy-Se8atTm0Ck&t=3530) (#15)
 - [PL] Mentor @ [HackNation 2025 hackathon](https://hacknation.pl/)
+- [EN] [HeiTech Meetup Xmass Edition: JavaScript](https://www.meetup.com/heitech-meetup/events/312009979/) (#13)
 
 ### 2024
 - [PL] [Toruń Web Development Meetup #2 (now: GDG Toruń)](https://crossweb.pl/wydarzenia/torun-web-development-meetup-2/) (#2)
