@@ -50,6 +50,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] [meet.js Gdansk TypeScript Meetup #17](https://www.youtube.com/live/NQS12C5droM?si=FU9Xy-Se8atTm0Ck&t=3530) (#15)
 - [PL] Mentor @ [HackNation 2025 hackathon](https://hacknation.pl/)
 - [EN] [HeiTech Meetup Xmass Edition: JavaScript](https://www.meetup.com/heitech-meetup/events/312009979/) (#13)
+- [PL] Frontend Meetup @ Xebia (#13)
 
 ### 2024
 - [PL] [Toruń Web Development Meetup #2 (now: GDG Toruń)](https://crossweb.pl/wydarzenia/torun-web-development-meetup-2/) (#2)
