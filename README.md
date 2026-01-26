@@ -28,6 +28,9 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 
 ## Activities and appearances
 
+### 2026
+- [PL] Mentor (online) @ [European Critical Infrastructure Hackathon](https://criticalhackathon.com/) 
+
 ### 2025
 - [PL] Mentor @ [BKI Hack hackathon](https://bkihack.pl/history/8-bydgoski-hackathon)
 - [PL] [#14 Gdańsk Typescript meetup](https://www.meetup.com/gdansk-typescript/events/306376219/) (#8)
