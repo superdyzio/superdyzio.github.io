@@ -1,0 +1,10 @@
+[
+  {
+    "slug": "hello-world",
+    "fileName": "hello-world.md",
+    "title": "Hello World",
+    "description": "Welcome to my new blog!",
+    "publishedAt": "2026-01-28",
+    "status": "published"
+  }
+]
