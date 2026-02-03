@@ -29,31 +29,40 @@ export default function Home() {
         </div>
       </section>
       
-      <section className="pt-12 border-t">
-        <h2 className="text-2xl font-bold mb-6">Latest from the blog</h2>
-        <div className="grid gap-6">
+      <section className="pt-12 border-t space-y-8">
+        <div className="space-y-2">
+          <h2 className="text-2xl font-bold tracking-tight text-gray-900">Latest from the blog</h2>
+          <div className="h-1 w-20 bg-blue-600 rounded"></div>
+        </div>
+        <div className="grid gap-8">
           {latestPosts.length > 0 ? (
             latestPosts.map((post) => (
-              <article key={post.slug} className="group">
-                <Link href={`/blog/${post.slug}`} className="block space-y-2">
-                  <time className="text-sm text-gray-500" dateTime={post.publishedAt}>
+              <article key={post.slug} className="group relative">
+                <Link href={`/blog/${post.slug}`} className="block space-y-3">
+                  <time className="text-sm font-medium text-gray-500 uppercase tracking-wider" dateTime={post.publishedAt}>
                     {new Date(post.publishedAt).toLocaleDateString('en-US', {
                       year: 'numeric',
                       month: 'long',
                       day: 'numeric',
                     })}
                   </time>
-                  <h3 className="text-xl font-bold group-hover:text-blue-600 transition-colors">
+                  <h3 className="text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
                     {post.title}
                   </h3>
-                  <p className="text-gray-600">
+                  <p className="text-gray-600 leading-relaxed max-w-2xl">
                     {post.description}
                   </p>
+                  <div className="text-blue-600 font-medium inline-flex items-center group-hover:translate-x-1 transition-transform">
+                    Read more 
+                    <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </div>
                 </Link>
               </article>
             ))
           ) : (
-            <p className="text-gray-500 italic">No posts yet. Stay tuned!</p>
+            <p className="text-gray-500 italic bg-gray-50 p-6 rounded-xl border border-dashed">No posts yet. Stay tuned!</p>
           )}
         </div>
       </section>
