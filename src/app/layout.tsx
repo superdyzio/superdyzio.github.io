@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "@/styles/globals.css";
 import Link from "next/link";
 
+import AuthStatus from "@/components/AuthStatus";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -30,6 +32,7 @@ export default function RootLayout({
               <Link href="/experience" className="hover:text-blue-600 transition-colors md:block hidden">Experience</Link>
               <Link href="/offer" className="hover:text-blue-600 transition-colors md:block hidden">Offer</Link>
               <Link href="/contact" className="hover:text-blue-600 transition-colors">Contact</Link>
+              <AuthStatus />
             </div>
           </nav>
         </header>
