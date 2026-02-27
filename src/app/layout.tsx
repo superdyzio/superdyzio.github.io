@@ -23,9 +23,13 @@ export default function RootLayout({
             <Link href="/" className="font-bold text-xl tracking-tight">
               superdyzio<span className="text-blue-600">.blog</span>
             </Link>
-            <div className="flex gap-6">
+            <div className="flex gap-4 md:gap-6 text-sm md:text-base">
+              <Link href="/#about" className="hover:text-blue-600 transition-colors">About</Link>
               <Link href="/blog" className="hover:text-blue-600 transition-colors">Blog</Link>
               <Link href="/speaker" className="hover:text-blue-600 transition-colors">Speaker</Link>
+              <Link href="/experience" className="hover:text-blue-600 transition-colors md:block hidden">Experience</Link>
+              <Link href="/offer" className="hover:text-blue-600 transition-colors md:block hidden">Offer</Link>
+              <Link href="/contact" className="hover:text-blue-600 transition-colors">Contact</Link>
             </div>
           </nav>
         </header>
