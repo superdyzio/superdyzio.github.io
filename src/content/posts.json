@@ -6,5 +6,37 @@
     "description": "Welcome to my new blog!",
     "publishedAt": "2026-01-28",
     "status": "published"
+  },
+  {
+    "slug": "mock-post-1",
+    "fileName": "mock-post-1.md",
+    "title": "Short Mock Post",
+    "description": "This is a short post with just one paragraph of lorem ipsum.",
+    "publishedAt": "2026-02-01",
+    "status": "published"
+  },
+  {
+    "slug": "mock-post-2",
+    "fileName": "mock-post-2.md",
+    "title": "Medium Mock Post",
+    "description": "This is a medium post with three paragraphs of lorem ipsum content.",
+    "publishedAt": "2026-02-10",
+    "status": "published"
+  },
+  {
+    "slug": "mock-post-3",
+    "fileName": "mock-post-3.md",
+    "title": "Long Mock Post (Draft)",
+    "description": "This is a long post that is currently a draft, showing more content.",
+    "publishedAt": "2026-02-20",
+    "status": "draft"
+  },
+  {
+    "slug": "mock-post-4",
+    "fileName": "mock-post-4.md",
+    "title": "Very Long Mock Post (Draft)",
+    "description": "This is a very long post that is currently a draft with many paragraphs.",
+    "publishedAt": "2026-02-25",
+    "status": "draft"
   }
 ]
