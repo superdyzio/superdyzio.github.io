@@ -1,9 +1,5 @@
 2. adjust styling of the whole page
 3. change the title of the page
-4. add about section
-5. add contact page
-6. add experience page
-7. add offer page
 8. add a couple of mocked posts
 9. password protected drafts
 10. hiding posts
@@ -12,6 +8,11 @@
 13. add theme
 14. accessibility
 15. active navigation
+16. fill in actual experiences and offer
 
 DONE
 1. add md with previous content of my talks and make sure it's reflected in the website - displayed as the md probably, like previously
+4. add about section
+5. add contact page
+6. add experience page
+7. add offer page
