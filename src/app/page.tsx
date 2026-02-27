@@ -29,6 +29,29 @@ export default function Home() {
         </div>
       </section>
       
+      <section id="about" className="pt-12 border-t space-y-8">
+        <div className="space-y-2">
+          <h2 className="text-2xl font-bold tracking-tight text-gray-900">About Me</h2>
+          <div className="h-1 w-20 bg-blue-600 rounded"></div>
+        </div>
+        <div className="prose prose-blue max-w-none text-gray-600 leading-relaxed">
+          <p>
+            I am a software developer with a passion for building high-quality applications and sharing knowledge. 
+            With years of experience in the industry, I have worked on various projects ranging from small startups to large-scale enterprise systems.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <p>
+            My expertise includes frontend development (Angular, React), backend systems, and decentralized applications (Web3). 
+            I am also an active speaker at tech conferences and a mentor for aspiring developers.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <p>
+            When I'm not coding, you can find me exploring new technologies, speaking at meetups, or contributing to the developer community.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+        </div>
+      </section>
+      
       <section className="pt-12 border-t space-y-8">
         <div className="space-y-2">
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">Latest from the blog</h2>
