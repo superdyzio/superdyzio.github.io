@@ -25,7 +25,6 @@ export function getAllPosts(): PostMeta[] {
   const posts: PostMeta[] = JSON.parse(fileContents);
   
   return posts
-    .filter(post => post.status === 'published' || process.env.NODE_ENV === 'development')
     .sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 }
 

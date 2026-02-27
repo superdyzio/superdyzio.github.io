@@ -1,7 +1,5 @@
 2. adjust styling of the whole page
 3. change the title of the page
-8. add a couple of mocked posts
-9. password protected drafts
 10. hiding posts
 11. proper mobile version
 12. playlist page
@@ -9,6 +7,7 @@
 14. accessibility
 15. active navigation
 16. fill in actual experiences and offer
+17. fix passwords handling, login form, and draft visibility, add logout
 
 DONE
 1. add md with previous content of my talks and make sure it's reflected in the website - displayed as the md probably, like previously
@@ -16,3 +15,5 @@ DONE
 5. add contact page
 6. add experience page
 7. add offer page
+8. add a couple of mocked posts
+9. password protected drafts
