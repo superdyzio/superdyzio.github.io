@@ -74,7 +74,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] [GDG Toruń](https://crossweb.pl/wydarzenia/at-an-angle-into-angular-18/) (#11)
 - [PL] [#10 Gdańsk TypeScript meetup](https://www.youtube.com/watch?v=X4iQxlq0irY&ab_channel=EscolaAI) (#9)
 - [PL] [#12 Gdańsk TypeScript meetup](https://www.youtube.com/live/xrCgvfS5xLU?si=u3CgkZCvVd4sT_Nh&t=7810) (#10)
-- [PL] 4 Developers 2024 (#8)
+- [PL] 4 Developers 2024 (#8) - best talk on the "FUTURE: MACHINE LEARNING, AI, DATA SCIENCE & BLOCKCHAIN" stage
 - [PL] 4 Developers Katowice (#10)
 - [PL] 4 Developers Wrocław (#10)
 - [PL] 4 Developers Łódź (#10) + program committee (Application Architecture track)
