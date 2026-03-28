@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 export default function SpeakerPage() {
   return (
     <div className="space-y-16">
@@ -58,6 +56,7 @@ export default function SpeakerPage() {
             <li>[PL/EN] Angular Forms Showdown: Template vs. Reactive vs. Signal</li>
             <li>[PL] Czego rapujący prawnik nauczy Cię o programowaniu?</li>
             <li>[PL] Jak projektowana jest elektronika, której używasz na co dzień?</li>
+            <li>[EN] Nx vs. Turborepo: A monorepo case study</li>
           </ol>
         </div>
       </section>
@@ -75,6 +74,7 @@ export default function SpeakerPage() {
             <ul className="space-y-4 list-disc ml-6 text-gray-700">
               <li>[PL] Mentor (online) @ <a href="https://criticalhackathon.com/" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors">European Critical Infrastructure Hackathon</a></li>
               <li>[PL] Lunch & Learn @ Altium (#16)</li>
+              <li>[EN] <a href="https://www.youtube.com/watch?v=olpkD-lUePg" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors">Nx Wrocław #2</a> (#17)</li>
             </ul>
           </div>
 
