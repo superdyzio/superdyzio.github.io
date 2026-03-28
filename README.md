@@ -26,12 +26,14 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 14. [PL] Czego rapujący prawnik nauczy Cię o programowaniu?
 15. [PL] Jak projektowana jest elektronika, której używasz na co dzień?
 16. [EN/PL] Has AI already taken over your company?
+17. [EN] NX vs. Turborepo: A monorepo case study
 
 ## Activities and appearances
 
 ### 2026
 - [PL] Mentor (online) @ [European Critical Infrastructure Hackathon](https://criticalhackathon.com/)
 - [PL] Lunch & Learn @ Altium (#16)
+- [EN] [Nx Wrocław #2](https://www.youtube.com/watch?v=olpkD-lUePg) (#17)
 
 ### 2025
 - [PL] Mentor @ [BKI Hack hackathon](https://bkihack.pl/history/8-bydgoski-hackathon)
