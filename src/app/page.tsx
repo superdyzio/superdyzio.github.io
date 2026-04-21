@@ -75,9 +75,9 @@ export default function Home() {
                   <p className="text-gray-600 leading-relaxed max-w-2xl">
                     {post.description}
                   </p>
-                  <div className="text-blue-600 font-medium inline-flex items-center group-hover:translate-x-1 transition-transform">
+                  <div className="text-blue-700 font-medium inline-flex items-center group-hover:translate-x-1 transition-transform">
                     Read more 
-                    <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
                   </div>
