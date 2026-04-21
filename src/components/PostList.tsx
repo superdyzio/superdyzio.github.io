@@ -28,25 +28,25 @@ export default function PostList({ initialPosts }: PostListProps) {
 
   if (isLoading) {
     return (
-      <div className="grid gap-10 sm:gap-12 pt-8 border-t">
+      <div className="post-list">
         <p className="text-gray-500 italic">Loading posts...</p>
       </div>
     );
   }
 
   return (
-    <div className="space-y-12">
+    <div className="page-stack">
       {authenticated && (
         <div className="inline-block bg-blue-50 text-blue-700 px-4 py-2 rounded-lg text-sm font-medium border border-blue-100">
           Admin view active (seeing drafts)
         </div>
       )}
       
-      <div className="grid gap-10 sm:gap-12 pt-8 border-t">
+      <div className="post-list">
         {posts.length > 0 ? (
           posts.map((post) => (
             <article key={post.slug} className="group">
-              <Link href={`/blog/${post.slug}`} className="block space-y-3">
+              <Link href={`/blog/${post.slug}`} className="post-card-link">
                 <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-sm font-medium text-gray-500">
                   <time dateTime={post.publishedAt} className="uppercase tracking-wider">
                     {new Date(post.publishedAt).toLocaleDateString('en-US', {
