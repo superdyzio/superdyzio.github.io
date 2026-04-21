@@ -7,6 +7,14 @@
     @apply antialiased text-gray-900 bg-white;
   }
 
+  a,
+  button,
+  input,
+  textarea,
+  select {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 focus-visible:ring-offset-2 focus-visible:ring-offset-white;
+  }
+
   ::selection {
     @apply bg-blue-100 text-blue-900;
   }
