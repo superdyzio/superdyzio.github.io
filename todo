@@ -1,5 +1,4 @@
 NEXT (execution order)
-14. accessibility
 2. adjust styling of the whole page
 3. change the title of the page
 10. hiding posts
@@ -13,11 +12,6 @@ DETAILS FOR SATISFACTORY END RESULT
 11. proper mobile version
 - verify all pages at 320px/375px/768px breakpoints
 - ensure nav, post list, markdown content, and forms are readable/tappable
-
-14. accessibility
-- enforce heading order (single h1 per page)
-- improve color contrast and focus-visible states
-- ensure links/buttons have clear accessible labels
 
 2. adjust styling of the whole page
 - unify spacing/typography scale across all pages
@@ -49,6 +43,7 @@ DETAILS FOR SATISFACTORY END RESULT
 - ensure draft visibility is gated and never leaks in static export
 
 DONE
+14. accessibility
 11. proper mobile version
 1. add md with previous content of my talks and make sure it's reflected in the website - displayed as the md probably, like previously
 4. add about section
