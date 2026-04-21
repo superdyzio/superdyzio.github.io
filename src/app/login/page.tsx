@@ -23,7 +23,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-20 p-8 border rounded-lg shadow-sm bg-white">
+    <div className="max-w-md mx-auto mt-8 sm:mt-12 md:mt-20 p-5 sm:p-8 border rounded-lg shadow-sm bg-white">
       <h1 className="text-2xl font-bold mb-6">Admin Login</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
