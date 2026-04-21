@@ -75,6 +75,7 @@ export default function SpeakerPage() {
               <li>[PL] Mentor (online) @ <a href="https://criticalhackathon.com/" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors">European Critical Infrastructure Hackathon</a></li>
               <li>[PL] Lunch & Learn @ Altium (#16)</li>
               <li>[EN] <a href="https://www.youtube.com/watch?v=olpkD-lUePg" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors">Nx Wrocław #2</a> (#17)</li>
+              <li>[PL] <a href="https://www.youtube.com/watch?v=OraYiRWuiJ8" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors">Dev.js summit spring edition</a> (#13)</li>
             </ul>
           </div>
 
