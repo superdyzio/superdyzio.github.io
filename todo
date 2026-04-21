@@ -1,5 +1,4 @@
 NEXT (execution order)
-11. proper mobile version
 14. accessibility
 2. adjust styling of the whole page
 3. change the title of the page
@@ -50,6 +49,7 @@ DETAILS FOR SATISFACTORY END RESULT
 - ensure draft visibility is gated and never leaks in static export
 
 DONE
+11. proper mobile version
 1. add md with previous content of my talks and make sure it's reflected in the website - displayed as the md probably, like previously
 4. add about section
 5. add contact page

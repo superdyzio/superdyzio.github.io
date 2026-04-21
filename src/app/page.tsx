@@ -5,24 +5,24 @@ export default function Home() {
   const latestPosts = getAllPosts().slice(0, 3);
 
   return (
-    <div className="space-y-12">
-      <section className="space-y-6">
-        <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl">
+    <div className="space-y-10 sm:space-y-12">
+      <section className="space-y-5 sm:space-y-6">
+        <h1 className="text-3xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl">
           Hi, I'm <span className="text-blue-600">Dawid Perdek</span>
         </h1>
-        <p className="text-xl text-gray-600 max-w-2xl leading-relaxed">
+        <p className="text-lg sm:text-xl text-gray-600 max-w-2xl leading-relaxed">
           I'm a software developer, speaker, and mentor. This is my personal blog where I share my experiences and insights on technology and software development.
         </p>
-        <div className="flex gap-4">
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
           <Link 
             href="/blog" 
-            className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+            className="px-6 py-3 text-center bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
           >
             Read my blog
           </Link>
           <Link 
             href="/speaker" 
-            className="px-6 py-3 border border-gray-300 font-medium rounded-lg hover:bg-gray-50 transition-colors"
+            className="px-6 py-3 text-center border border-gray-300 font-medium rounded-lg hover:bg-gray-50 transition-colors"
           >
             My speaking experience
           </Link>
@@ -57,7 +57,7 @@ export default function Home() {
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">Latest from the blog</h2>
           <div className="h-1 w-20 bg-blue-600 rounded"></div>
         </div>
-        <div className="grid gap-8">
+        <div className="grid gap-6 sm:gap-8">
           {latestPosts.length > 0 ? (
             latestPosts.map((post) => (
               <article key={post.slug} className="group relative">
@@ -69,7 +69,7 @@ export default function Home() {
                       day: 'numeric',
                     })}
                   </time>
-                  <h3 className="text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
+                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
                     {post.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed max-w-2xl">
