@@ -2,16 +2,16 @@ import { Mail, Linkedin, Twitter, Github } from 'lucide-react';
 
 export default function ContactPage() {
   return (
-    <div className="space-y-16">
+    <div className="space-y-12 sm:space-y-16">
       <header className="space-y-4">
-        <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl text-gray-900">Get in touch</h1>
-        <p className="text-xl text-gray-600 leading-relaxed max-w-3xl">
+        <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight lg:text-5xl text-gray-900">Get in touch</h1>
+        <p className="text-lg sm:text-xl text-gray-600 leading-relaxed max-w-3xl">
           I'm always open to new opportunities, collaborations, or just a friendly chat. 
           Feel free to reach out to me through any of the channels below.
         </p>
       </header>
 
-      <div className="grid md:grid-cols-2 gap-12">
+      <div className="grid md:grid-cols-2 gap-8 sm:gap-12">
         <section className="space-y-8">
           <div className="space-y-2">
             <h2 className="text-2xl font-bold tracking-tight text-gray-900">Contact Details</h2>
@@ -28,7 +28,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="text-sm font-medium text-gray-500 uppercase tracking-wider">Email</p>
-                <p className="text-lg font-semibold text-gray-900">perdekdawid@gmail.com</p>
+                <p className="text-base sm:text-lg font-semibold text-gray-900 break-all">perdekdawid@gmail.com</p>
               </div>
             </a>
 
@@ -86,7 +86,7 @@ export default function ContactPage() {
           </div>
           
           <form className="space-y-4">
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="space-y-2">
                 <label htmlFor="name" className="text-sm font-medium text-gray-700">Name</label>
                 <input 
