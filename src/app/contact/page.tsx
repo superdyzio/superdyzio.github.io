@@ -2,20 +2,20 @@ import { Mail, Linkedin, Twitter, Github } from 'lucide-react';
 
 export default function ContactPage() {
   return (
-    <div className="space-y-12 sm:space-y-16">
-      <header className="space-y-4">
-        <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight lg:text-5xl text-gray-900">Get in touch</h1>
-        <p className="text-lg sm:text-xl text-gray-600 leading-relaxed max-w-3xl">
+    <div className="page-stack">
+      <header className="page-header">
+        <h1 className="page-title">Get in touch</h1>
+        <p className="page-lead">
           I'm always open to new opportunities, collaborations, or just a friendly chat. 
           Feel free to reach out to me through any of the channels below.
         </p>
       </header>
 
       <div className="grid md:grid-cols-2 gap-8 sm:gap-12">
-        <section className="space-y-8">
-          <div className="space-y-2">
-            <h2 className="text-2xl font-bold tracking-tight text-gray-900">Contact Details</h2>
-            <div className="h-1 w-20 bg-blue-600 rounded"></div>
+        <section className="section-stack">
+          <div className="section-subtitle">
+            <h2 className="section-title">Contact Details</h2>
+            <div className="section-accent"></div>
           </div>
           
           <div className="space-y-6">
@@ -79,10 +79,10 @@ export default function ContactPage() {
           </div>
         </section>
 
-        <section className="space-y-8">
-          <div className="space-y-2">
-            <h2 className="text-2xl font-bold tracking-tight text-gray-900">Send a Message</h2>
-            <div className="h-1 w-20 bg-blue-600 rounded"></div>
+        <section className="section-stack">
+          <div className="section-subtitle">
+            <h2 className="section-title">Send a Message</h2>
+            <div className="section-accent"></div>
           </div>
           
           <form className="space-y-4">
