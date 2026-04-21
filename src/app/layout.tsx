@@ -8,8 +8,15 @@ import AuthStatus from "@/components/AuthStatus";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Superdyzio Blog",
+  title: {
+    default: "superdyzio.blog",
+    template: "%s | superdyzio.blog",
+  },
   description: "My experience as a speaker and developer",
+  openGraph: {
+    title: "superdyzio.blog",
+    description: "My experience as a speaker and developer",
+  },
 };
 
 export default function RootLayout({
