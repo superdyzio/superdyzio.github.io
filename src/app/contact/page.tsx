@@ -24,7 +24,7 @@ export default function ContactPage() {
               className="flex items-center gap-4 p-4 rounded-xl border border-gray-100 hover:border-blue-200 hover:bg-blue-50/50 transition-all group"
             >
               <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center text-blue-600 group-hover:scale-110 transition-transform">
-                <Mail className="w-6 h-6" />
+                <Mail className="w-6 h-6" aria-hidden="true" />
               </div>
               <div>
                 <p className="text-sm font-medium text-gray-500 uppercase tracking-wider">Email</p>
@@ -39,7 +39,7 @@ export default function ContactPage() {
               className="flex items-center gap-4 p-4 rounded-xl border border-gray-100 hover:border-blue-200 hover:bg-blue-50/50 transition-all group"
             >
               <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center text-blue-600 group-hover:scale-110 transition-transform">
-                <Linkedin className="w-6 h-6" />
+                <Linkedin className="w-6 h-6" aria-hidden="true" />
               </div>
               <div>
                 <p className="text-sm font-medium text-gray-500 uppercase tracking-wider">LinkedIn</p>
@@ -54,7 +54,7 @@ export default function ContactPage() {
               className="flex items-center gap-4 p-4 rounded-xl border border-gray-100 hover:border-blue-200 hover:bg-blue-50/50 transition-all group"
             >
               <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center text-blue-600 group-hover:scale-110 transition-transform">
-                <Twitter className="w-6 h-6" />
+                <Twitter className="w-6 h-6" aria-hidden="true" />
               </div>
               <div>
                 <p className="text-sm font-medium text-gray-500 uppercase tracking-wider">Twitter</p>
@@ -69,7 +69,7 @@ export default function ContactPage() {
               className="flex items-center gap-4 p-4 rounded-xl border border-gray-100 hover:border-blue-200 hover:bg-blue-50/50 transition-all group"
             >
               <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center text-blue-600 group-hover:scale-110 transition-transform">
-                <Github className="w-6 h-6" />
+                <Github className="w-6 h-6" aria-hidden="true" />
               </div>
               <div>
                 <p className="text-sm font-medium text-gray-500 uppercase tracking-wider">GitHub</p>

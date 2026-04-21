@@ -21,7 +21,7 @@ export default function AuthStatus() {
     return (
       <button 
         onClick={handleLogout}
-        className="text-gray-500 hover:text-blue-600 transition-colors"
+        className="text-gray-700 hover:text-blue-700 transition-colors"
       >
         Logout
       </button>
@@ -29,7 +29,7 @@ export default function AuthStatus() {
   }
 
   return (
-    <Link href="/login" className="text-gray-500 hover:text-blue-600 transition-colors">
+    <Link href="/login" className="text-gray-700 hover:text-blue-700 transition-colors">
       Login
     </Link>
   );
