@@ -29,10 +29,10 @@ export default function OfferPage() {
   ];
 
   return (
-    <div className="space-y-12 sm:space-y-16">
-      <header className="space-y-4">
-        <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight lg:text-5xl text-gray-900">What I Offer</h1>
-        <p className="text-lg sm:text-xl text-gray-600 leading-relaxed max-w-3xl">
+    <div className="page-stack">
+      <header className="page-header">
+        <h1 className="page-title">What I Offer</h1>
+        <p className="page-lead">
           I provide a variety of services to help you build better software and grow your team. 
           Here's how we can work together.
         </p>
@@ -40,7 +40,7 @@ export default function OfferPage() {
 
       <div className="grid sm:grid-cols-2 gap-6 sm:gap-8">
         {offers.map((offer, index) => (
-          <div key={index} className="p-6 sm:p-8 bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow flex flex-col h-full">
+          <div key={index} className="surface-card flex h-full flex-col sm:p-8">
             <div className="w-16 h-16 rounded-xl bg-blue-100 flex items-center justify-center text-blue-600 mb-6">
               {offer.icon}
             </div>
@@ -62,7 +62,7 @@ export default function OfferPage() {
         ))}
       </div>
 
-      <div className="pt-10 sm:pt-12 border-t text-center space-y-6 sm:space-y-8">
+      <div className="section-divider text-center space-y-6 sm:space-y-8">
         <div className="space-y-4">
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Interested in a collaboration?</h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
