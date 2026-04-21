@@ -5,12 +5,12 @@ export default function Home() {
   const latestPosts = getAllPosts().slice(0, 3);
 
   return (
-    <div className="space-y-10 sm:space-y-12">
-      <section className="space-y-5 sm:space-y-6">
-        <h1 className="text-3xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl">
+    <div className="page-stack">
+      <section className="section-stack">
+        <h1 className="page-title">
           Hi, I'm <span className="text-blue-600">Dawid Perdek</span>
         </h1>
-        <p className="text-lg sm:text-xl text-gray-600 max-w-2xl leading-relaxed">
+        <p className="page-lead max-w-2xl">
           I'm a software developer, speaker, and mentor. This is my personal blog where I share my experiences and insights on technology and software development.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
@@ -29,10 +29,10 @@ export default function Home() {
         </div>
       </section>
       
-      <section id="about" className="pt-12 border-t space-y-8">
-        <div className="space-y-2">
-          <h2 className="text-2xl font-bold tracking-tight text-gray-900">About Me</h2>
-          <div className="h-1 w-20 bg-blue-600 rounded"></div>
+      <section id="about" className="section-divider section-stack">
+        <div className="section-subtitle">
+          <h2 className="section-title">About Me</h2>
+          <div className="section-accent"></div>
         </div>
         <div className="prose prose-blue max-w-none text-gray-600 leading-relaxed">
           <p>
@@ -52,16 +52,16 @@ export default function Home() {
         </div>
       </section>
       
-      <section className="pt-12 border-t space-y-8">
-        <div className="space-y-2">
-          <h2 className="text-2xl font-bold tracking-tight text-gray-900">Latest from the blog</h2>
-          <div className="h-1 w-20 bg-blue-600 rounded"></div>
+      <section className="section-divider section-stack">
+        <div className="section-subtitle">
+          <h2 className="section-title">Latest from the blog</h2>
+          <div className="section-accent"></div>
         </div>
-        <div className="grid gap-6 sm:gap-8">
+        <div className="grid gap-6">
           {latestPosts.length > 0 ? (
             latestPosts.map((post) => (
               <article key={post.slug} className="group relative">
-                <Link href={`/blog/${post.slug}`} className="block space-y-3">
+                <Link href={`/blog/${post.slug}`} className="post-card-link">
                   <time className="text-sm font-medium text-gray-500 uppercase tracking-wider" dateTime={post.publishedAt}>
                     {new Date(post.publishedAt).toLocaleDateString('en-US', {
                       year: 'numeric',
