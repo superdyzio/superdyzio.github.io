@@ -1,15 +1,15 @@
 export default function SpeakerPage() {
   return (
-    <div className="space-y-16">
+    <div className="space-y-12 sm:space-y-16">
       <header className="space-y-4">
-        <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl">Speaking & Activities</h1>
-        <p className="text-xl text-gray-600 leading-relaxed max-w-3xl">
+        <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight lg:text-5xl">Speaking & Activities</h1>
+        <p className="text-lg sm:text-xl text-gray-600 leading-relaxed max-w-3xl">
           I'm passionate about sharing knowledge and engaging with the tech community. 
           Here's a list of my talks, workshops, and other activities.
         </p>
       </header>
 
-      <section className="space-y-8">
+      <section className="space-y-6 sm:space-y-8">
         <div className="space-y-2">
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">Talks</h2>
           <div className="h-1 w-20 bg-blue-600 rounded"></div>
@@ -19,8 +19,8 @@ export default function SpeakerPage() {
           <a href="https://www.linkedin.com/in/perdekdawid" className="text-blue-600 hover:text-blue-800 font-medium transition-colors mx-1">let me know</a> 
           if you're interested.
         </p>
-        <div className="bg-gray-50 rounded-2xl p-8 border border-gray-100 shadow-sm">
-          <ol className="list-decimal ml-6 space-y-6 text-gray-700">
+        <div className="bg-gray-50 rounded-2xl p-5 sm:p-8 border border-gray-100 shadow-sm">
+          <ol className="list-decimal ml-5 sm:ml-6 space-y-4 sm:space-y-6 text-gray-700">
             <li>[PL] Kiedy Angular i React są śrubokrętem, a kiedy wkrętarką?</li>
             <li>[PL] Mapa dobrych praktyk wytwarzania oprogramowania
               <ul className="list-disc ml-6 mt-2 text-sm text-gray-500 space-y-2">
@@ -62,14 +62,14 @@ export default function SpeakerPage() {
         </div>
       </section>
 
-      <section className="space-y-12">
+      <section className="space-y-10 sm:space-y-12">
         <div className="space-y-2">
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">Activities and Appearances</h2>
           <div className="h-1 w-20 bg-blue-600 rounded"></div>
         </div>
         
-        <div className="space-y-12">
-          <div className="relative pl-8 before:absolute before:left-0 before:top-0 before:bottom-0 before:w-px before:bg-gray-200">
+        <div className="space-y-10 sm:space-y-12">
+          <div className="relative pl-6 sm:pl-8 before:absolute before:left-0 before:top-0 before:bottom-0 before:w-px before:bg-gray-200">
             <div className="absolute left-[-4px] top-2 w-2 h-2 rounded-full bg-blue-600 ring-4 ring-white"></div>
             <h3 className="text-xl font-bold mb-6 text-gray-900">2026</h3>
             <ul className="space-y-4 list-disc ml-6 text-gray-700">
@@ -80,7 +80,7 @@ export default function SpeakerPage() {
             </ul>
           </div>
 
-          <div className="relative pl-8 before:absolute before:left-0 before:top-0 before:bottom-0 before:w-px before:bg-gray-200">
+          <div className="relative pl-6 sm:pl-8 before:absolute before:left-0 before:top-0 before:bottom-0 before:w-px before:bg-gray-200">
             <div className="absolute left-[-4px] top-2 w-2 h-2 rounded-full bg-blue-600 ring-4 ring-white"></div>
             <h3 className="text-xl font-bold mb-6 text-gray-900">2025</h3>
             <ul className="space-y-4 list-disc ml-6 text-gray-700">
@@ -109,7 +109,7 @@ export default function SpeakerPage() {
             </ul>
           </div>
 
-          <div className="relative pl-8 before:absolute before:left-0 before:top-0 before:bottom-0 before:w-px before:bg-gray-200">
+          <div className="relative pl-6 sm:pl-8 before:absolute before:left-0 before:top-0 before:bottom-0 before:w-px before:bg-gray-200">
             <div className="absolute left-[-4px] top-2 w-2 h-2 rounded-full bg-blue-600 ring-4 ring-white"></div>
             <h3 className="text-xl font-bold mb-6 text-gray-900">2024</h3>
             <ul className="space-y-4 list-disc ml-6 text-gray-700">
