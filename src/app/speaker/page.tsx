@@ -56,6 +56,7 @@ export default function SpeakerPage() {
             <li>[PL/EN] Angular Forms Showdown: Template vs. Reactive vs. Signal</li>
             <li>[PL] Czego rapujący prawnik nauczy Cię o programowaniu?</li>
             <li>[PL] Jak projektowana jest elektronika, której używasz na co dzień?</li>
+            <li>[EN/PL] Has AI already taken over your company?</li>
             <li>[EN] Nx vs. Turborepo: A monorepo case study</li>
           </ol>
         </div>
