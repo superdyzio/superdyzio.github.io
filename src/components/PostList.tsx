@@ -28,7 +28,7 @@ export default function PostList({ initialPosts }: PostListProps) {
 
   if (isLoading) {
     return (
-      <div className="grid gap-12 pt-8 border-t">
+      <div className="grid gap-10 sm:gap-12 pt-8 border-t">
         <p className="text-gray-500 italic">Loading posts...</p>
       </div>
     );
@@ -42,12 +42,12 @@ export default function PostList({ initialPosts }: PostListProps) {
         </div>
       )}
       
-      <div className="grid gap-12 pt-8 border-t">
+      <div className="grid gap-10 sm:gap-12 pt-8 border-t">
         {posts.length > 0 ? (
           posts.map((post) => (
             <article key={post.slug} className="group">
               <Link href={`/blog/${post.slug}`} className="block space-y-3">
-                <div className="flex items-center gap-3 text-sm font-medium text-gray-500">
+                <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-sm font-medium text-gray-500">
                   <time dateTime={post.publishedAt} className="uppercase tracking-wider">
                     {new Date(post.publishedAt).toLocaleDateString('en-US', {
                       year: 'numeric',
@@ -59,7 +59,7 @@ export default function PostList({ initialPosts }: PostListProps) {
                     <span className="bg-yellow-100 text-yellow-800 px-2 py-0.5 rounded text-xs font-bold uppercase tracking-tight">Draft</span>
                   )}
                 </div>
-                <h2 className="text-3xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
                   {post.title}
                 </h2>
                 <p className="text-gray-600 leading-relaxed max-w-3xl">
