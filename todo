@@ -1,13 +1,53 @@
+NEXT (execution order)
+11. proper mobile version
+14. accessibility
 2. adjust styling of the whole page
 3. change the title of the page
 10. hiding posts
-11. proper mobile version
-12. playlist page
-13. add theme
-14. accessibility
 15. active navigation
 16. fill in actual experiences and offer
+12. playlist page
+13. add theme
 17. fix passwords handling, login form, and draft visibility, add logout
+
+DETAILS FOR SATISFACTORY END RESULT
+11. proper mobile version
+- verify all pages at 320px/375px/768px breakpoints
+- ensure nav, post list, markdown content, and forms are readable/tappable
+
+14. accessibility
+- enforce heading order (single h1 per page)
+- improve color contrast and focus-visible states
+- ensure links/buttons have clear accessible labels
+
+2. adjust styling of the whole page
+- unify spacing/typography scale across all pages
+- standardize card/list styles for posts and sections
+
+3. change the title of the page
+- update metadata title template and default title
+- ensure social/open graph title consistency
+
+10. hiding posts
+- hide drafts from public lists/routes in production build
+- keep published filtering based on posts.json status
+
+15. active navigation
+- add active state for current route in top navigation
+
+16. fill in actual experiences and offer
+- replace placeholders with real content on experience/offer pages
+
+12. playlist page
+- create page structure and seed initial playlist items
+
+13. add theme
+- implement light/dark mode toggle with persisted preference
+
+17. fix passwords handling, login form, and draft visibility, add logout
+- move away from insecure password handling on client side
+- define clear auth flow: login, session, logout
+- ensure draft visibility is gated and never leaks in static export
 
 DONE
 1. add md with previous content of my talks and make sure it's reflected in the website - displayed as the md probably, like previously
