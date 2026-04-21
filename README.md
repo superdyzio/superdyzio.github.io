@@ -34,6 +34,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] Mentor (online) @ [European Critical Infrastructure Hackathon](https://criticalhackathon.com/)
 - [PL] Lunch & Learn @ Altium (#16)
 - [EN] [Nx Wrocław #2](https://www.youtube.com/watch?v=olpkD-lUePg) (#17)
+- [PL] [Dev.js summit spring edition](https://www.youtube.com/watch?v=OraYiRWuiJ8) (#13)
 
 ### 2025
 - [PL] Mentor @ [BKI Hack hackathon](https://bkihack.pl/history/8-bydgoski-hackathon)
