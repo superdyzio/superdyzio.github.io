@@ -1,13 +1,9 @@
 NEXT (execution order)
-16. fill in actual experiences and offer
 12. playlist page
 13. add theme
 17. fix passwords handling, login form, and draft visibility, add logout
 
 DETAILS FOR SATISFACTORY END RESULT
-16. fill in actual experiences and offer
-- replace placeholders with real content on experience/offer pages
-
 12. playlist page
 - create page structure and seed initial playlist items
 
@@ -20,6 +16,7 @@ DETAILS FOR SATISFACTORY END RESULT
 - ensure draft visibility is gated and never leaks in static export
 
 DONE
+16. fill in actual experiences and offer
 15. active navigation
 10. hiding posts
 3. change the title of the page
