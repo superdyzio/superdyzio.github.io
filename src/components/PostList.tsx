@@ -1,39 +1,14 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { PostMeta } from '@/lib/posts';
-import { isLoggedIn } from '@/lib/auth';
 
 interface PostListProps {
-  initialPosts: PostMeta[];
+  posts: PostMeta[];
+  authenticated: boolean;
 }
 
-export default function PostList({ initialPosts }: PostListProps) {
-  const [posts, setPosts] = useState<PostMeta[]>([]);
-  const [authenticated, setAuthenticated] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    const isAuth = isLoggedIn();
-    setAuthenticated(isAuth);
-    
-    if (isAuth) {
-      setPosts(initialPosts);
-    } else {
-      setPosts(initialPosts.filter(p => p.status === 'published'));
-    }
-    setIsLoading(false);
-  }, [initialPosts]);
-
-  if (isLoading) {
-    return (
-      <div className="post-list">
-        <p className="text-gray-500 italic dark:text-gray-400">Loading posts...</p>
-      </div>
-    );
-  }
-
+export default function PostList({ posts, authenticated }: PostListProps) {
   return (
     <div className="page-stack">
       {authenticated && (
