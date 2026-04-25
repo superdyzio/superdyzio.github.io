@@ -19,7 +19,11 @@ const navItems = [
   { href: '/contact', label: 'Contact', pathname: '/contact' },
 ];
 
-export default function MainNavigationLinks() {
+interface MainNavigationLinksProps {
+  isAuthenticated: boolean;
+}
+
+export default function MainNavigationLinks({ isAuthenticated }: MainNavigationLinksProps) {
   const pathname = usePathname();
 
   return (
@@ -38,7 +42,7 @@ export default function MainNavigationLinks() {
           </Link>
         );
       })}
-      <AuthStatus />
+      <AuthStatus initialAuth={isAuthenticated} />
     </>
   );
 }
