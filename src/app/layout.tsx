@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "@/styles/globals.css";
 import Link from "next/link";
 
-import AuthStatus from "@/components/AuthStatus";
+import MainNavigationLinks from "@/components/MainNavigationLinks";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,8 +24,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const navLinkClassName = "text-gray-700 hover:text-blue-700 transition-colors";
-
   return (
     <html lang="en">
       <body className={`${inter.className} min-h-screen flex flex-col`}>
@@ -35,13 +33,7 @@ export default function RootLayout({
               superdyzio<span className="text-blue-600">.blog</span>
             </Link>
             <div className="w-full flex flex-wrap gap-x-4 gap-y-2 text-sm sm:w-auto sm:flex-nowrap sm:gap-5 md:gap-6 md:text-base">
-              <Link href="/#about" className={navLinkClassName}>About</Link>
-              <Link href="/blog" className={navLinkClassName}>Blog</Link>
-              <Link href="/speaker" className={navLinkClassName}>Speaker</Link>
-              <Link href="/experience" className={navLinkClassName}>Experience</Link>
-              <Link href="/offer" className={navLinkClassName}>Offer</Link>
-              <Link href="/contact" className={navLinkClassName}>Contact</Link>
-              <AuthStatus />
+              <MainNavigationLinks />
             </div>
           </nav>
         </header>

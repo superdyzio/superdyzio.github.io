@@ -1,5 +1,4 @@
 NEXT (execution order)
-15. active navigation
 16. fill in actual experiences and offer
 12. playlist page
 13. add theme
@@ -40,6 +39,7 @@ DETAILS FOR SATISFACTORY END RESULT
 - ensure draft visibility is gated and never leaks in static export
 
 DONE
+15. active navigation
 10. hiding posts
 3. change the title of the page
 2. adjust styling of the whole page
