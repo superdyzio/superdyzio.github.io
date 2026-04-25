@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "@/styles/globals.css";
 import Link from "next/link";
+import { cookies } from 'next/headers';
 
 import MainNavigationLinks from "@/components/MainNavigationLinks";
 import ThemeToggle from "@/components/ThemeToggle";
+import { isValidSessionToken, SESSION_COOKIE_NAME } from '@/lib/auth';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,11 +22,14 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const sessionCookie = (await cookies()).get(SESSION_COOKIE_NAME)?.value;
+  const isAuthenticated = isValidSessionToken(sessionCookie);
+
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
@@ -48,7 +53,7 @@ export default function RootLayout({
               superdyzio<span className="text-blue-600">.blog</span>
             </Link>
             <div className="w-full flex flex-wrap items-center gap-x-4 gap-y-2 text-sm sm:w-auto sm:flex-nowrap sm:gap-5 md:gap-6 md:text-base">
-              <MainNavigationLinks />
+              <MainNavigationLinks isAuthenticated={isAuthenticated} />
               <ThemeToggle />
             </div>
           </nav>
