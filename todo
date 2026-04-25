@@ -5,25 +5,6 @@ NEXT (execution order)
 17. fix passwords handling, login form, and draft visibility, add logout
 
 DETAILS FOR SATISFACTORY END RESULT
-11. proper mobile version
-- verify all pages at 320px/375px/768px breakpoints
-- ensure nav, post list, markdown content, and forms are readable/tappable
-
-2. adjust styling of the whole page
-- unify spacing/typography scale across all pages
-- standardize card/list styles for posts and sections
-
-3. change the title of the page
-- update metadata title template and default title
-- ensure social/open graph title consistency
-
-10. hiding posts
-- hide drafts from public lists/routes in production build
-- keep published filtering based on posts.json status
-
-15. active navigation
-- add active state for current route in top navigation
-
 16. fill in actual experiences and offer
 - replace placeholders with real content on experience/offer pages
 
