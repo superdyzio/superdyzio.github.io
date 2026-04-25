@@ -20,18 +20,22 @@ export interface PostContent extends PostMeta {
   contentHtml: string;
 }
 
-export function getAllPosts(): PostMeta[] {
+interface GetAllPostsOptions {
+  includeDrafts?: boolean;
+}
+
+export function getAllPosts(options: GetAllPostsOptions = {}): PostMeta[] {
   const fileContents = fs.readFileSync(postsJsonPath, 'utf8');
   const posts: PostMeta[] = JSON.parse(fileContents);
-  const shouldHideDrafts = process.env.NODE_ENV === 'production';
+  const shouldHideDrafts = !options.includeDrafts;
   
   return posts
     .filter((post) => !shouldHideDrafts || post.status === 'published')
     .sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 }
 
-export async function getPostBySlug(slug: string): Promise<PostContent | null> {
-  const posts = getAllPosts();
+export async function getPostBySlug(slug: string, options: GetAllPostsOptions = {}): Promise<PostContent | null> {
+  const posts = getAllPosts(options);
   const postMeta = posts.find(p => p.slug === slug);
   
   if (!postMeta) return null;
