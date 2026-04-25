@@ -1,8 +1,13 @@
 import { getAllPosts } from '@/lib/posts';
 import PostList from '@/components/PostList';
+import { cookies } from 'next/headers';
 
-export default function BlogIndex() {
-  const posts = getAllPosts();
+import { isValidSessionToken, SESSION_COOKIE_NAME } from '@/lib/auth';
+
+export default async function BlogIndex() {
+  const sessionCookie = (await cookies()).get(SESSION_COOKIE_NAME)?.value;
+  const authenticated = isValidSessionToken(sessionCookie);
+  const posts = getAllPosts({ includeDrafts: authenticated });
 
   return (
     <div className="page-stack">
@@ -13,7 +18,7 @@ export default function BlogIndex() {
         </p>
       </header>
       
-      <PostList initialPosts={posts} />
+      <PostList posts={posts} authenticated={authenticated} />
     </div>
   );
 }
