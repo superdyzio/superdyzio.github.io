@@ -6,8 +6,8 @@ import { usePathname } from 'next/navigation';
 import AuthStatus from '@/components/AuthStatus';
 
 const baseNavLinkClassName = 'transition-colors';
-const inactiveNavLinkClassName = 'text-gray-700 hover:text-blue-700';
-const activeNavLinkClassName = 'text-blue-700 font-semibold';
+const inactiveNavLinkClassName = 'text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-blue-400';
+const activeNavLinkClassName = 'font-semibold text-blue-700 dark:text-blue-400';
 
 const navItems = [
   { href: '/#about', label: 'About', pathname: '/' },
