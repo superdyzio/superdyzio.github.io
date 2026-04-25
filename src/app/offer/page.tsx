@@ -3,28 +3,28 @@ import { Code2, Users, Presentation, Lightbulb } from 'lucide-react';
 export default function OfferPage() {
   const offers = [
     {
-      title: "Software Development",
-      description: "Custom web application development using modern technologies. Focus on performance, scalability, and maintainability.",
+      title: "Product-Focused Engineering",
+      description: "I help teams turn ideas into working software quickly and responsibly. From architecture decisions to delivery details, I focus on building solutions that are maintainable and useful from day one.",
       icon: <Code2 className="w-8 h-8" />,
-      features: ["Frontend (React/Angular)", "Backend (Node.js/Java)", "Full-stack solutions"]
+      features: ["Feature design & implementation", "Frontend architecture (React / Angular)", "Quality-focused delivery flow"]
     },
     {
-      title: "Public Speaking",
-      description: "Keynote speaking, technical workshops, and panel discussions for tech conferences and corporate events.",
+      title: "Talks & Workshops",
+      description: "I deliver practical, engaging sessions for meetups, conferences, and internal company events. Topics include frontend engineering, software quality, communication, and AI in everyday development.",
       icon: <Presentation className="w-8 h-8" />,
-      features: ["Conference talks", "Internal workshops", "Mentoring for speakers"]
+      features: ["Conference / meetup talks", "Hands-on internal workshops", "Event-tailored sessions"]
     },
     {
       title: "Consulting & Mentoring",
-      description: "Helping teams and individuals grow. Architecture reviews, code audits, and career guidance.",
+      description: "I support engineering teams and individual developers through focused mentoring and consulting. The goal is better decisions, clearer communication, and steady growth of technical leadership.",
       icon: <Users className="w-8 h-8" />,
-      features: ["Code reviews", "Architecture consulting", "1-on-1 mentoring"]
+      features: ["Architecture and codebase reviews", "1:1 mentoring for developers", "Team process improvements"]
     },
     {
-      title: "Product Strategy",
-      description: "Assisting in defining MVP, roadmap planning, and identifying key user personas for your product.",
+      title: "Product Discovery Support",
+      description: "When needed, I help shape early product direction so engineering effort lands on the right problems. This includes MVP scoping, prioritization, and workshop facilitation with stakeholders.",
       icon: <Lightbulb className="w-8 h-8" />,
-      features: ["MVP definition", "User Story Mapping", "Event Storming"]
+      features: ["MVP scope and roadmap framing", "Workshop facilitation", "Problem-first feature prioritization"]
     }
   ];
 
@@ -33,8 +33,7 @@ export default function OfferPage() {
       <header className="page-header">
         <h1 className="page-title">What I Offer</h1>
         <p className="page-lead">
-          I provide a variety of services to help you build better software and grow your team. 
-          Here's how we can work together.
+          Practical support for teams and events that value quality, clarity, and real outcomes.
         </p>
       </header>
 
@@ -66,7 +65,7 @@ export default function OfferPage() {
         <div className="space-y-4">
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Interested in a collaboration?</h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
-            Let's discuss how I can help you achieve your goals. Reach out to me for a custom quote.
+            Tell me what you're building or planning, and I'll suggest a simple way we can work together.
           </p>
         </div>
         <a 
