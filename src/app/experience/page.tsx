@@ -1,25 +1,60 @@
 export default function ExperiencePage() {
   const experiences = [
     {
-      company: "Company Name",
+      company: "Bored Founders Club",
+      role: "Current experience (from LinkedIn)",
+      period: "Present",
+      description: "Active involvement in founder-focused initiatives and community activities, with a practical focus on product building, networking, and knowledge sharing. This is the only entry intentionally sourced from LinkedIn, while the remaining roles are expanded directly from CV content.",
+      skills: ["Community", "Product Thinking", "Founder Ecosystem", "Networking"]
+    },
+    {
+      company: "Altium",
       role: "Senior Software Engineer",
-      period: "2023 - Present",
-      description: "Working on building scalable web applications using React, Next.js, and Node.js. Leading a team of developers and implementing best practices for software development. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      skills: ["React", "Next.js", "TypeScript", "Node.js"]
+      period: "04/2025 – Present",
+      description: "Working on a PCB design web application built with Vue, Java, and .NET. The role includes co-ownership of several microfrontend applications and two backend services, with strong emphasis on maintainable architecture, cross-team collaboration, and reliable delivery in a complex engineering domain.",
+      skills: ["Vue", "Java", ".NET", "Microfrontends"]
     },
     {
-      company: "Previous Company",
-      role: "Software Developer",
-      period: "2020 - 2023",
-      description: "Developed and maintained various frontend and backend services. Collaborated with cross-functional teams to deliver high-quality products. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      skills: ["Angular", "Java", "Spring Boot", "PostgreSQL"]
+      company: "Monogram",
+      role: "Angular Tech Lead",
+      period: "03/2025 – Present",
+      description: "Leading a 6-person development team building a microfrontend-based application in Angular. Beyond day-to-day technical leadership, responsibilities include performance reviews and individual growth plans, coordination of integrations with other teams, and participation in high-level quarterly PI planning across the broader product organization.",
+      skills: ["Angular", "Tech Leadership", "Microfrontends", "PI Planning"]
     },
     {
-      company: "Early Company",
-      role: "Junior Developer",
-      period: "2018 - 2020",
-      description: "Assisted in the development of web applications and gained experience in full-stack development. Participated in code reviews and learned industry standards.",
-      skills: ["JavaScript", "HTML/CSS", "PHP", "MySQL"]
+      company: "Dawid Perdek (own business)",
+      role: "Software Consultant",
+      period: "04/2019 – Present",
+      description: "Running consulting work end-to-end: client acquisition, negotiations, budgeting, and long-term partnerships. The work spans strategic frontend consulting for startups and enterprise clients (including finance and automotive), collaboration with external technology vendors, creation of trainings and video courses (frontend architecture, DDD, Angular, soft skills), Agile lectures for WSB Merito, and implementation of business automations with low-code/no-code tools such as Make and Airtable.",
+      skills: ["Consulting", "Frontend Architecture", "Workshops", "Automation"]
+    },
+    {
+      company: "SAP Fioneer",
+      role: "Senior Software Engineer",
+      period: "09/2024 – 03/2025",
+      description: "Built a complex ESG solution for the banking sector using React and Kotlin, contributing to a domain with strict business and regulatory requirements. The role focused on turning complex ESG needs into dependable product functionality while keeping implementation quality high.",
+      skills: ["React", "Kotlin", "ESG", "Banking"]
+    },
+    {
+      company: "Synergy Codes",
+      role: "Principal Developer",
+      period: "03/2020 – 08/2024",
+      description: "Strategic advisor and senior technical contributor in a 60+ person R&D organization (40+ people in IT), working closely with leadership on organization-level direction and technology decisions. Responsibilities included facilitating strategic workshops (risk analysis, team formation, domain work with Event Storming), designing and rolling out a mentoring program across R&D, introducing Event Storming as a standard client collaboration method, supporting OKR rollout with the board, consulting frontend architecture across 10+ parallel projects, improving recruitment/onboarding/offboarding and delivery processes, and leading internal initiatives in both Tech Lead and Product Owner capacities.",
+      skills: ["Strategy", "Mentoring", "Event Storming", "Frontend Architecture"]
+    },
+    {
+      company: "Matic",
+      role: "Frontend Tech Lead",
+      period: "03/2019 – 01/2020",
+      description: "Led a team of 9 frontend developers with focus on mentoring, performance reviews, and development planning. Introduced unit testing practices that helped reach over 80% code coverage, rolled out code quality checks and internationalization (i18n), and coordinated collaboration with external vendors including review and acceptance of deliverables while helping shape project roadmaps.",
+      skills: ["Team Leadership", "Testing", "Code Quality", "i18n"]
+    },
+    {
+      company: "S3 Connected Health",
+      role: "Software Engineer",
+      period: "07/2016 – 03/2019",
+      description: "Developed telehealth solutions in Agile teams using AngularJS and Angular 2+, delivering features in a healthcare-focused environment where reliability and clarity mattered. In addition to implementation work, supported other teams with unit testing to improve consistency and confidence in delivery.",
+      skills: ["AngularJS", "Angular", "Agile", "Unit Testing"]
     }
   ];
 
@@ -28,7 +63,7 @@ export default function ExperiencePage() {
       <header className="page-header">
         <h1 className="page-title">Experience</h1>
         <p className="page-lead">
-          My professional journey in the software industry. I've had the pleasure of working with great teams and building impactful products.
+          A blend of hands-on product delivery, engineering leadership, and community work.
         </p>
       </header>
 
@@ -65,7 +100,7 @@ export default function ExperiencePage() {
         <div className="space-y-4">
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Let's work together</h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
-            My experience can help your team reach new heights. Reach out to discuss how I can contribute to your project.
+            If you need someone who can combine execution, product thinking, and clear communication, I'd be happy to help.
           </p>
         </div>
         <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
