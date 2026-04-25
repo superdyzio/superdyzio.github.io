@@ -83,9 +83,9 @@ export default function PlaylistPage() {
 
         <div className="grid gap-6 sm:gap-8">
           {playlistItems.map((set) => (
-            <article key={set.title} className="bg-white border border-gray-100 rounded-2xl p-5 sm:p-7 shadow-sm">
-              <h3 className="text-xl sm:text-2xl font-bold text-gray-900">{set.title}</h3>
-              <p className="text-gray-600 mt-2 mb-5">{set.context}</p>
+            <article key={set.title} className="bg-white border border-gray-100 rounded-2xl p-5 sm:p-7 shadow-sm dark:border-gray-800 dark:bg-gray-900">
+              <h3 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-gray-100">{set.title}</h3>
+              <p className="text-gray-600 mt-2 mb-5 dark:text-gray-300">{set.context}</p>
               <ol className="space-y-3">
                 {set.tracks.map((track) => (
                   <li key={`${track.artist}-${track.song}`}>
@@ -93,13 +93,13 @@ export default function PlaylistPage() {
                       href={track.url}
                       target="_blank"
                       rel="noreferrer"
-                      className="group flex items-center justify-between gap-3 rounded-lg border border-gray-100 px-4 py-3 hover:border-blue-200 hover:bg-blue-50/40 transition-colors"
+                      className="group flex items-center justify-between gap-3 rounded-lg border border-gray-100 px-4 py-3 hover:border-blue-200 hover:bg-blue-50/40 transition-colors dark:border-gray-700 dark:hover:border-blue-700 dark:hover:bg-blue-950/30"
                     >
-                      <span className="text-gray-800">
+                      <span className="text-gray-800 dark:text-gray-200">
                         <span className="font-semibold">{track.song}</span>{' '}
-                        <span className="text-gray-600">— {track.artist}</span>
+                        <span className="text-gray-600 dark:text-gray-400">— {track.artist}</span>
                       </span>
-                      <span className="text-sm font-medium text-blue-700 group-hover:translate-x-0.5 transition-transform">
+                      <span className="text-sm font-medium text-blue-700 dark:text-blue-400 group-hover:translate-x-0.5 transition-transform">
                         Listen
                       </span>
                     </a>
