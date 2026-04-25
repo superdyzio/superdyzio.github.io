@@ -23,11 +23,11 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-8 sm:mt-12 md:mt-20 p-5 sm:p-8 border rounded-lg shadow-sm bg-white">
-      <h1 className="text-2xl font-bold mb-6">Admin Login</h1>
+    <div className="max-w-md mx-auto mt-8 sm:mt-12 md:mt-20 p-5 sm:p-8 border border-gray-200 rounded-lg shadow-sm bg-white dark:border-gray-800 dark:bg-gray-900">
+      <h1 className="text-2xl font-bold mb-6 text-gray-900 dark:text-gray-100">Admin Login</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
-          <label htmlFor="username" className="block text-sm font-medium text-gray-700 mb-1">
+          <label htmlFor="username" className="block text-sm font-medium text-gray-700 mb-1 dark:text-gray-300">
             Username
           </label>
           <input
@@ -35,13 +35,13 @@ export default function LoginPage() {
             type="text"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
-            className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-3 py-2 border border-gray-300 bg-white text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100"
             required
             autoComplete="username"
           />
         </div>
         <div>
-          <label htmlFor="password" className="block text-sm font-medium text-gray-700 mb-1">
+          <label htmlFor="password" className="block text-sm font-medium text-gray-700 mb-1 dark:text-gray-300">
             Password
           </label>
           <input
@@ -49,7 +49,7 @@ export default function LoginPage() {
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-3 py-2 border border-gray-300 bg-white text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-gray-700 dark:bg-gray-950 dark:text-gray-100"
             required
             autoComplete="current-password"
           />
