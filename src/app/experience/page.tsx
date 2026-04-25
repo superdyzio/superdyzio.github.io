@@ -69,24 +69,24 @@ export default function ExperiencePage() {
 
       <div className="space-y-8 sm:space-y-10">
         {experiences.map((exp, index) => (
-          <div key={index} className="relative pl-8 before:absolute before:left-0 before:top-0 before:bottom-0 before:w-px before:bg-gray-200 last:before:bottom-8">
-            <div className="absolute left-[-4px] top-2 w-2 h-2 rounded-full bg-blue-600 ring-4 ring-white"></div>
+          <div key={index} className="relative pl-8 before:absolute before:left-0 before:top-0 before:bottom-0 before:w-px before:bg-gray-200 dark:before:bg-gray-800 last:before:bottom-8">
+            <div className="absolute left-[-4px] top-2 w-2 h-2 rounded-full bg-blue-600 ring-4 ring-white dark:ring-gray-950"></div>
             <div className="space-y-4">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
                 <div>
-                  <h2 className="text-2xl font-bold text-gray-900">{exp.role}</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-100">{exp.role}</h2>
                   <p className="text-lg font-medium text-blue-600">{exp.company}</p>
                 </div>
-                <span className="inline-flex items-center px-3 py-1 rounded-full text-xs sm:text-sm font-medium bg-gray-100 text-gray-800 self-start md:self-center">
+                <span className="inline-flex items-center px-3 py-1 rounded-full text-xs sm:text-sm font-medium bg-gray-100 text-gray-800 self-start md:self-center dark:bg-gray-800 dark:text-gray-200">
                   {exp.period}
                 </span>
               </div>
-              <p className="text-gray-600 leading-relaxed max-w-3xl">
+              <p className="text-gray-600 leading-relaxed max-w-3xl dark:text-gray-300">
                 {exp.description}
               </p>
               <div className="flex flex-wrap gap-2">
                 {exp.skills.map((skill) => (
-                  <span key={skill} className="px-3 py-1 bg-blue-50 text-blue-700 text-xs font-semibold rounded-md border border-blue-100">
+                  <span key={skill} className="px-3 py-1 bg-blue-50 text-blue-700 text-xs font-semibold rounded-md border border-blue-100 dark:border-blue-900/60 dark:bg-blue-950/40 dark:text-blue-300">
                     {skill}
                   </span>
                 ))}
@@ -98,8 +98,8 @@ export default function ExperiencePage() {
 
       <div className="section-divider text-center space-y-6 sm:space-y-8">
         <div className="space-y-4">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Let's work together</h2>
-          <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-gray-100">Let's work together</h2>
+          <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto dark:text-gray-300">
             If you need someone who can combine execution, product thinking, and clear communication, I'd be happy to help.
           </p>
         </div>
@@ -112,7 +112,7 @@ export default function ExperiencePage() {
           </a>
           <a 
             href="/offer" 
-            className="px-6 sm:px-8 py-3 sm:py-4 border border-gray-300 text-gray-700 font-bold rounded-xl hover:bg-gray-50 transition-all shadow-sm"
+            className="px-6 sm:px-8 py-3 sm:py-4 border border-gray-300 text-gray-700 font-bold rounded-xl hover:bg-gray-50 transition-all shadow-sm dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-900"
           >
             See my services
           </a>
