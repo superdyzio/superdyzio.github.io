@@ -12,6 +12,7 @@ const activeNavLinkClassName = 'text-blue-700 font-semibold';
 const navItems = [
   { href: '/#about', label: 'About', pathname: '/' },
   { href: '/blog', label: 'Blog', pathname: '/blog' },
+  { href: '/playlist', label: 'Playlist', pathname: '/playlist' },
   { href: '/speaker', label: 'Speaker', pathname: '/speaker' },
   { href: '/experience', label: 'Experience', pathname: '/experience' },
   { href: '/offer', label: 'Offer', pathname: '/offer' },
