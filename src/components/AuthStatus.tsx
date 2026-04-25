@@ -2,19 +2,22 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { isLoggedIn, logout } from '@/lib/auth';
 
-export default function AuthStatus() {
-  const [isAuth, setIsAuth] = useState(false);
+interface AuthStatusProps {
+  initialAuth: boolean;
+}
+
+export default function AuthStatus({ initialAuth }: AuthStatusProps) {
+  const [isAuth, setIsAuth] = useState(initialAuth);
 
   useEffect(() => {
-    setIsAuth(isLoggedIn());
-  }, []);
+    setIsAuth(initialAuth);
+  }, [initialAuth]);
 
-  const handleLogout = () => {
-    logout();
+  const handleLogout = async () => {
+    await fetch('/api/auth/logout', { method: 'POST' });
     setIsAuth(false);
-    window.location.href = '/';
+    window.location.href = '/blog';
   };
 
   if (isAuth) {
