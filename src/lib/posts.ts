@@ -23,8 +23,10 @@ export interface PostContent extends PostMeta {
 export function getAllPosts(): PostMeta[] {
   const fileContents = fs.readFileSync(postsJsonPath, 'utf8');
   const posts: PostMeta[] = JSON.parse(fileContents);
+  const shouldHideDrafts = process.env.NODE_ENV === 'production';
   
   return posts
+    .filter((post) => !shouldHideDrafts || post.status === 'published')
     .sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 }
 
