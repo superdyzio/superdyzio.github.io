@@ -22,7 +22,7 @@ export default function Home() {
           </Link>
           <Link 
             href="/speaker" 
-            className="px-6 py-3 text-center border border-gray-300 font-medium rounded-lg hover:bg-gray-50 transition-colors"
+            className="px-6 py-3 text-center border border-gray-300 text-gray-700 font-medium rounded-lg hover:bg-gray-50 transition-colors dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-900"
           >
             My speaking experience
           </Link>
@@ -34,7 +34,7 @@ export default function Home() {
           <h2 className="section-title">About Me</h2>
           <div className="section-accent"></div>
         </div>
-        <div className="prose prose-blue max-w-none text-gray-600 leading-relaxed">
+        <div className="prose prose-blue dark:prose-invert max-w-none text-gray-600 leading-relaxed dark:text-gray-300">
           <p>
             I am a software developer with a passion for building high-quality applications and sharing knowledge. 
             With years of experience in the industry, I have worked on various projects ranging from small startups to large-scale enterprise systems.
@@ -62,20 +62,20 @@ export default function Home() {
             latestPosts.map((post) => (
               <article key={post.slug} className="group relative">
                 <Link href={`/blog/${post.slug}`} className="post-card-link">
-                  <time className="text-sm font-medium text-gray-500 uppercase tracking-wider" dateTime={post.publishedAt}>
+                  <time className="text-sm font-medium text-gray-500 uppercase tracking-wider dark:text-gray-400" dateTime={post.publishedAt}>
                     {new Date(post.publishedAt).toLocaleDateString('en-US', {
                       year: 'numeric',
                       month: 'long',
                       day: 'numeric',
                     })}
                   </time>
-                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
+                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors dark:text-gray-100 dark:group-hover:text-blue-400">
                     {post.title}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed max-w-2xl">
+                  <p className="text-gray-600 leading-relaxed max-w-2xl dark:text-gray-300">
                     {post.description}
                   </p>
-                  <div className="text-blue-700 font-medium inline-flex items-center group-hover:translate-x-1 transition-transform">
+                  <div className="text-blue-700 dark:text-blue-400 font-medium inline-flex items-center group-hover:translate-x-1 transition-transform">
                     Read more 
                     <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -85,7 +85,7 @@ export default function Home() {
               </article>
             ))
           ) : (
-            <p className="text-gray-500 italic bg-gray-50 p-6 rounded-xl border border-dashed">No posts yet. Stay tuned!</p>
+            <p className="text-gray-500 italic bg-gray-50 p-6 rounded-xl border border-dashed dark:border-gray-700 dark:bg-gray-900 dark:text-gray-400">No posts yet. Stay tuned!</p>
           )}
         </div>
       </section>

@@ -40,16 +40,16 @@ export default function OfferPage() {
       <div className="grid sm:grid-cols-2 gap-6 sm:gap-8">
         {offers.map((offer, index) => (
           <div key={index} className="surface-card flex h-full flex-col sm:p-8">
-            <div className="w-16 h-16 rounded-xl bg-blue-100 flex items-center justify-center text-blue-600 mb-6">
+            <div className="w-16 h-16 rounded-xl bg-blue-100 flex items-center justify-center text-blue-600 mb-6 dark:bg-blue-900/40 dark:text-blue-300">
               {offer.icon}
             </div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">{offer.title}</h2>
-            <p className="text-gray-600 leading-relaxed mb-8 flex-grow">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 dark:text-gray-100">{offer.title}</h2>
+            <p className="text-gray-600 leading-relaxed mb-8 flex-grow dark:text-gray-300">
               {offer.description}
             </p>
             <ul className="space-y-3">
               {offer.features.map((feature) => (
-                <li key={feature} className="flex items-center text-gray-700">
+                <li key={feature} className="flex items-center text-gray-700 dark:text-gray-200">
                   <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
@@ -63,8 +63,8 @@ export default function OfferPage() {
 
       <div className="section-divider text-center space-y-6 sm:space-y-8">
         <div className="space-y-4">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Interested in a collaboration?</h2>
-          <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-gray-100">Interested in a collaboration?</h2>
+          <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto dark:text-gray-300">
             Tell me what you're building or planning, and I'll suggest a simple way we can work together.
           </p>
         </div>
