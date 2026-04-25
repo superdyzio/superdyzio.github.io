@@ -1,12 +1,8 @@
 NEXT (execution order)
-12. playlist page
 13. add theme
 17. fix passwords handling, login form, and draft visibility, add logout
 
 DETAILS FOR SATISFACTORY END RESULT
-12. playlist page
-- create page structure and seed initial playlist items
-
 13. add theme
 - implement light/dark mode toggle with persisted preference
 
@@ -16,6 +12,7 @@ DETAILS FOR SATISFACTORY END RESULT
 - ensure draft visibility is gated and never leaks in static export
 
 DONE
+12. playlist page
 16. fill in actual experiences and offer
 15. active navigation
 10. hiding posts
