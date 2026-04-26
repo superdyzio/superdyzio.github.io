@@ -6,7 +6,10 @@ import { cookies } from 'next/headers';
 
 import MainNavigationLinks from "@/components/MainNavigationLinks";
 import ThemeToggle from "@/components/ThemeToggle";
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 import { isValidSessionToken, SESSION_COOKIE_NAME } from '@/lib/auth';
+import { getTranslations } from '@/lib/i18n';
+import { getLocaleFromCookies } from '@/lib/i18n.server';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,9 +32,11 @@ export default async function RootLayout({
 }>) {
   const sessionCookie = (await cookies()).get(SESSION_COOKIE_NAME)?.value;
   const isAuthenticated = isValidSessionToken(sessionCookie);
+  const locale = await getLocaleFromCookies();
+  const t = getTranslations(locale);
 
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang={locale} suppressHydrationWarning>
       <head>
         <script
           dangerouslySetInnerHTML={{
@@ -53,7 +58,8 @@ export default async function RootLayout({
               superdyzio<span className="text-blue-600">.blog</span>
             </Link>
             <div className="w-full flex flex-wrap items-center gap-x-4 gap-y-2 text-sm sm:w-auto sm:flex-nowrap sm:gap-5 md:gap-6 md:text-base">
-              <MainNavigationLinks isAuthenticated={isAuthenticated} />
+              <MainNavigationLinks isAuthenticated={isAuthenticated} locale={locale} />
+              <LanguageSwitcher locale={locale} />
               <ThemeToggle />
             </div>
           </nav>
@@ -63,7 +69,7 @@ export default async function RootLayout({
         </main>
         <footer className="mt-12 border-t bg-gray-50 py-8 transition-colors dark:border-gray-800 dark:bg-gray-900">
           <div className="max-w-4xl mx-auto px-4 text-center text-sm text-gray-500 dark:text-gray-400">
-            © {new Date().getFullYear()} Dawid Perdek. Built with Next.js and Tailwind.
+            © {new Date().getFullYear()} Dawid Perdek. {t.common.builtWith}
           </div>
         </footer>
       </body>

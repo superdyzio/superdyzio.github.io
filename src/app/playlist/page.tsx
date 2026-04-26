@@ -1,7 +1,8 @@
-const playlistItems = [
+import { getTranslations } from '@/lib/i18n';
+import { getLocaleFromCookies } from '@/lib/i18n.server';
+
+const playlistTracks = [
   {
-    title: 'Deep Work Session',
-    context: 'Best for focused coding blocks and architecture work.',
     tracks: [
       {
         artist: 'Hans Zimmer',
@@ -21,8 +22,6 @@ const playlistItems = [
     ],
   },
   {
-    title: 'Ship It Energy',
-    context: 'When deadlines are close and momentum matters.',
     tracks: [
       {
         artist: 'Daft Punk',
@@ -42,8 +41,6 @@ const playlistItems = [
     ],
   },
   {
-    title: 'Creative Reset',
-    context: 'For brainstorming, writing, and stepping back to see the bigger picture.',
     tracks: [
       {
         artist: 'Bonobo',
@@ -64,20 +61,26 @@ const playlistItems = [
   },
 ];
 
-export default function PlaylistPage() {
+export default async function PlaylistPage() {
+  const locale = await getLocaleFromCookies();
+  const t = getTranslations(locale);
+  const playlistItems = t.playlist.sets.map((set, index) => ({
+    ...set,
+    tracks: playlistTracks[index].tracks,
+  }));
+
   return (
     <div className="page-stack">
       <header className="page-header">
-        <h1 className="page-title">Playlist</h1>
+        <h1 className="page-title">{t.simplePages.playlistTitle}</h1>
         <p className="page-lead max-w-3xl">
-          A small, curated set of tracks I often listen to while building products, preparing talks,
-          and mentoring developers.
+          {t.simplePages.playlistLead}
         </p>
       </header>
 
       <section className="section-stack">
         <div className="section-subtitle">
-          <h2 className="section-title">Seeded sets</h2>
+          <h2 className="section-title">{t.playlist.sectionTitle}</h2>
           <div className="section-accent"></div>
         </div>
 
@@ -100,7 +103,7 @@ export default function PlaylistPage() {
                         <span className="text-gray-600 dark:text-gray-400">— {track.artist}</span>
                       </span>
                       <span className="text-sm font-medium text-blue-700 dark:text-blue-400 group-hover:translate-x-0.5 transition-transform">
-                        Listen
+                        {t.common.listen}
                       </span>
                     </a>
                   </li>
