@@ -15,12 +15,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "superdyzio.blog",
-    template: "%s | superdyzio.blog",
+    default: "superdyzio.dev",
+    template: "%s | superdyzio.dev",
   },
   description: "My experience as a speaker and developer",
   openGraph: {
-    title: "superdyzio.blog",
+    title: "superdyzio.dev",
     description: "My experience as a speaker and developer",
   },
 };
@@ -53,16 +53,18 @@ export default async function RootLayout({
       </head>
       <body className={`${inter.className} min-h-screen flex flex-col bg-white text-gray-900 transition-colors dark:bg-gray-950 dark:text-gray-100`}>
         <header className="sticky top-0 z-50 border-b bg-white/80 backdrop-blur-md transition-colors dark:border-gray-800 dark:bg-gray-950/80">
-          <nav className="max-w-4xl mx-auto px-4 py-3 flex flex-col gap-3 sm:h-16 sm:py-0 sm:flex-row sm:items-center sm:justify-between">
-            <Link href="/" className="self-start text-lg font-bold tracking-tight text-gray-900 transition-colors hover:text-blue-700 sm:self-auto sm:text-xl dark:text-gray-100 dark:hover:text-blue-400">
-              superdyzio<span className="text-blue-600">.blog</span>
+          <div className="px-4 py-3 flex flex-col gap-4 sm:h-16 sm:py-0 sm:grid sm:grid-cols-[1fr_auto_1fr] sm:items-center sm:gap-4">
+            <Link href="/" className="self-start text-left text-lg font-bold tracking-tight text-gray-900 transition-colors hover:text-blue-700 sm:self-auto sm:justify-self-start sm:text-xl dark:text-gray-100 dark:hover:text-blue-400">
+              superdyzio<span className="text-blue-600">.dev</span>
             </Link>
-            <div className="w-full flex flex-wrap items-center gap-x-4 gap-y-2 text-sm sm:w-auto sm:flex-nowrap sm:gap-5 md:gap-6 md:text-base">
+            <nav className="w-full flex flex-wrap items-center justify-start gap-x-5 gap-y-2 text-sm sm:flex-nowrap sm:justify-center sm:gap-6 md:gap-7 md:text-base">
               <MainNavigationLinks isAuthenticated={isAuthenticated} locale={locale} />
+            </nav>
+            <div className="w-full flex flex-wrap items-center justify-start gap-x-5 gap-y-2 text-sm sm:w-auto sm:flex-nowrap sm:justify-end sm:gap-6 md:gap-7 md:text-base">
               <LanguageSwitcher locale={locale} />
               <ThemeToggle />
             </div>
-          </nav>
+          </div>
         </header>
         <main className="flex-grow max-w-4xl mx-auto px-4 py-8 sm:py-10 md:py-12 w-full">
           {children}
