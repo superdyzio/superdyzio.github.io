@@ -1,23 +1,28 @@
-export default function SpeakerPage() {
+import { getTranslations } from '@/lib/i18n';
+import { getLocaleFromCookies } from '@/lib/i18n.server';
+
+export default async function SpeakerPage() {
+  const locale = await getLocaleFromCookies();
+  const t = getTranslations(locale);
+
   return (
     <div className="space-y-12 sm:space-y-16">
       <header className="space-y-4">
-        <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight lg:text-5xl">Speaking & Activities</h1>
+        <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight lg:text-5xl">{t.simplePages.speakerTitle}</h1>
         <p className="text-lg sm:text-xl text-gray-600 leading-relaxed max-w-3xl dark:text-gray-300">
-          I'm passionate about sharing knowledge and engaging with the tech community. 
-          Here's a list of my talks, workshops, and other activities.
+          {t.simplePages.speakerLead}
         </p>
       </header>
 
       <section className="space-y-6 sm:space-y-8">
         <div className="space-y-2">
-          <h2 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">Talks</h2>
+          <h2 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">{t.speaker.talksTitle}</h2>
           <div className="h-1 w-20 bg-blue-600 rounded"></div>
         </div>
         <p className="text-gray-600 leading-relaxed dark:text-gray-300">
-          I'd be very happy to visit your event or company with one of these, just 
-          <a href="https://www.linkedin.com/in/perdekdawid" className="text-blue-600 hover:text-blue-800 font-medium transition-colors mx-1 dark:text-blue-400 dark:hover:text-blue-300">let me know</a> 
-          if you're interested.
+          {t.speaker.talksLeadPrefix}{' '}
+          <a href="https://www.linkedin.com/in/perdekdawid" className="text-blue-600 hover:text-blue-800 font-medium transition-colors mx-1 dark:text-blue-400 dark:hover:text-blue-300">{t.speaker.talksLeadLink}</a>{' '}
+          {t.speaker.talksLeadSuffix}
         </p>
         <div className="bg-gray-50 rounded-2xl p-5 sm:p-8 border border-gray-100 shadow-sm dark:border-gray-800 dark:bg-gray-900">
           <ol className="list-decimal ml-5 sm:ml-6 space-y-4 sm:space-y-6 text-gray-700 dark:text-gray-200">
@@ -64,7 +69,7 @@ export default function SpeakerPage() {
 
       <section className="space-y-10 sm:space-y-12">
         <div className="space-y-2">
-          <h2 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">Activities and Appearances</h2>
+          <h2 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-100">{t.speaker.activitiesTitle}</h2>
           <div className="h-1 w-20 bg-blue-600 rounded"></div>
         </div>
         
