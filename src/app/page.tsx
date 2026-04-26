@@ -1,37 +1,41 @@
 import Link from 'next/link';
 import { getAllPosts } from '@/lib/posts';
+import { formatDate, getTranslations } from '@/lib/i18n';
+import { getLocaleFromCookies } from '@/lib/i18n.server';
 
-export default function Home() {
+export default async function Home() {
   const latestPosts = getAllPosts().slice(0, 3);
+  const locale = await getLocaleFromCookies();
+  const t = getTranslations(locale);
 
   return (
     <div className="page-stack">
       <section className="section-stack">
         <h1 className="page-title">
-          Hi, I'm <span className="text-blue-600">Dawid Perdek</span>
+          {t.home.titlePrefix} <span className="text-blue-600">Dawid Perdek</span>
         </h1>
         <p className="page-lead max-w-2xl">
-          I'm a software developer, speaker, and mentor. This is my personal blog where I share my experiences and insights on technology and software development.
+          {t.home.lead}
         </p>
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
           <Link 
             href="/blog" 
             className="px-6 py-3 text-center bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
           >
-            Read my blog
+            {t.home.blogCta}
           </Link>
           <Link 
             href="/speaker" 
             className="px-6 py-3 text-center border border-gray-300 text-gray-700 font-medium rounded-lg hover:bg-gray-50 transition-colors dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-900"
           >
-            My speaking experience
+            {t.home.speakerCta}
           </Link>
         </div>
       </section>
       
       <section id="about" className="section-divider section-stack">
         <div className="section-subtitle">
-          <h2 className="section-title">About Me</h2>
+          <h2 className="section-title">{t.home.aboutTitle}</h2>
           <div className="section-accent"></div>
         </div>
         <div className="prose prose-blue dark:prose-invert max-w-none text-gray-600 leading-relaxed dark:text-gray-300">
@@ -54,7 +58,7 @@ export default function Home() {
       
       <section className="section-divider section-stack">
         <div className="section-subtitle">
-          <h2 className="section-title">Latest from the blog</h2>
+          <h2 className="section-title">{t.home.latestTitle}</h2>
           <div className="section-accent"></div>
         </div>
         <div className="grid gap-6">
@@ -63,11 +67,7 @@ export default function Home() {
               <article key={post.slug} className="group relative">
                 <Link href={`/blog/${post.slug}`} className="post-card-link">
                   <time className="text-sm font-medium text-gray-500 uppercase tracking-wider dark:text-gray-400" dateTime={post.publishedAt}>
-                    {new Date(post.publishedAt).toLocaleDateString('en-US', {
-                      year: 'numeric',
-                      month: 'long',
-                      day: 'numeric',
-                    })}
+                    {formatDate(post.publishedAt, locale)}
                   </time>
                   <h3 className="text-xl sm:text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors dark:text-gray-100 dark:group-hover:text-blue-400">
                     {post.title}
@@ -76,7 +76,7 @@ export default function Home() {
                     {post.description}
                   </p>
                   <div className="text-blue-700 dark:text-blue-400 font-medium inline-flex items-center group-hover:translate-x-1 transition-transform">
-                    Read more 
+                    {t.common.readMore}{' '}
                     <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
@@ -85,7 +85,7 @@ export default function Home() {
               </article>
             ))
           ) : (
-            <p className="text-gray-500 italic bg-gray-50 p-6 rounded-xl border border-dashed dark:border-gray-700 dark:bg-gray-900 dark:text-gray-400">No posts yet. Stay tuned!</p>
+            <p className="text-gray-500 italic bg-gray-50 p-6 rounded-xl border border-dashed dark:border-gray-700 dark:bg-gray-900 dark:text-gray-400">{t.common.noPostsYet}</p>
           )}
         </div>
       </section>
