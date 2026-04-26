@@ -53,17 +53,32 @@ export default async function RootLayout({
       </head>
       <body className={`${inter.className} min-h-screen flex flex-col bg-white text-gray-900 transition-colors dark:bg-gray-950 dark:text-gray-100`}>
         <header className="sticky top-0 z-50 border-b bg-white/80 backdrop-blur-md transition-colors dark:border-gray-800 dark:bg-gray-950/80">
-          <div className="px-4 py-3 flex flex-col gap-4 sm:h-16 sm:py-0 sm:grid sm:grid-cols-[1fr_auto_1fr] sm:items-center sm:gap-4">
-            <Link href="/" className="self-start text-left text-lg font-bold tracking-tight text-gray-900 transition-colors hover:text-blue-700 sm:self-auto sm:justify-self-start sm:text-xl dark:text-gray-100 dark:hover:text-blue-400">
+          <div className="px-4 py-3 sm:px-5 sm:py-4 lg:px-6 2xl:h-16 2xl:py-3">
+            <div className="flex items-center justify-between gap-3 2xl:grid 2xl:grid-cols-[1fr_auto_1fr] 2xl:items-center 2xl:gap-4">
+              <Link href="/" className="text-left text-base font-bold tracking-tight text-gray-900 transition-colors hover:text-blue-700 sm:text-lg 2xl:justify-self-start 2xl:text-xl dark:text-gray-100 dark:hover:text-blue-400">
               superdyzio<span className="text-blue-600">.dev</span>
-            </Link>
-            <nav className="w-full flex flex-wrap items-center justify-start gap-x-5 gap-y-2 text-sm sm:flex-nowrap sm:justify-center sm:gap-6 md:gap-7 md:text-base">
+              </Link>
+              <nav className="hidden w-full items-center justify-center gap-4 2xl:flex 2xl:text-base">
+                <MainNavigationLinks isAuthenticated={isAuthenticated} locale={locale} />
+              </nav>
+              <div className="flex items-center justify-end gap-3 text-sm 2xl:gap-4 2xl:justify-self-end">
+                <LanguageSwitcher locale={locale} />
+                <ThemeToggle />
+                <details className="relative sm:hidden">
+                  <summary className="cursor-pointer list-none rounded-md border border-gray-200 px-3 py-1.5 text-sm font-medium text-gray-700 transition-colors hover:border-blue-300 hover:text-blue-700 dark:border-gray-700 dark:text-gray-200 dark:hover:border-blue-500 dark:hover:text-blue-400">
+                    Menu
+                  </summary>
+                  <nav className="absolute right-0 top-11 z-10 min-w-52 rounded-lg border border-gray-200 bg-white p-3 shadow-lg dark:border-gray-700 dark:bg-gray-900">
+                    <div className="flex flex-col items-start gap-2 text-sm">
+                      <MainNavigationLinks isAuthenticated={isAuthenticated} locale={locale} />
+                    </div>
+                  </nav>
+                </details>
+              </div>
+            </div>
+            <nav className="mt-3 hidden w-full items-center justify-start gap-3 overflow-x-auto text-xs sm:flex sm:text-[0.78rem] md:text-sm lg:text-[0.95rem] 2xl:hidden">
               <MainNavigationLinks isAuthenticated={isAuthenticated} locale={locale} />
             </nav>
-            <div className="w-full flex flex-wrap items-center justify-start gap-x-5 gap-y-2 text-sm sm:w-auto sm:flex-nowrap sm:justify-end sm:gap-6 md:gap-7 md:text-base">
-              <LanguageSwitcher locale={locale} />
-              <ThemeToggle />
-            </div>
           </div>
         </header>
         <main className="flex-grow max-w-4xl mx-auto px-4 py-8 sm:py-10 md:py-12 w-full">
