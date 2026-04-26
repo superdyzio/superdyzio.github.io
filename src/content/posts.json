@@ -2,40 +2,55 @@
   {
     "slug": "hello-world",
     "fileName": "hello-world.md",
+    "fileNamePl": "hello-world.pl.md",
     "title": "Hello World",
+    "titlePl": "Witaj świecie",
     "description": "Welcome to my new blog!",
+    "descriptionPl": "Witaj na moim nowym blogu!",
     "publishedAt": "2026-01-28",
     "status": "published"
   },
   {
     "slug": "mock-post-1",
     "fileName": "mock-post-1.md",
+    "fileNamePl": "mock-post-1.pl.md",
     "title": "Short Mock Post",
+    "titlePl": "Krótki przykładowy wpis",
     "description": "This is a short post with just one paragraph of lorem ipsum.",
+    "descriptionPl": "To krótki wpis z jednym akapitem tekstu zastępczego.",
     "publishedAt": "2026-02-01",
     "status": "published"
   },
   {
     "slug": "mock-post-2",
     "fileName": "mock-post-2.md",
+    "fileNamePl": "mock-post-2.pl.md",
     "title": "Medium Mock Post",
+    "titlePl": "Średni przykładowy wpis",
     "description": "This is a medium post with three paragraphs of lorem ipsum content.",
+    "descriptionPl": "To średni wpis z trzema akapitami tekstu zastępczego.",
     "publishedAt": "2026-02-10",
     "status": "published"
   },
   {
     "slug": "mock-post-3",
     "fileName": "mock-post-3.md",
+    "fileNamePl": "mock-post-3.pl.md",
     "title": "Long Mock Post (Draft)",
+    "titlePl": "Długi przykładowy wpis (Szkic)",
     "description": "This is a long post that is currently a draft, showing more content.",
+    "descriptionPl": "To długi wpis, który jest obecnie szkicem i zawiera więcej treści.",
     "publishedAt": "2026-02-20",
     "status": "draft"
   },
   {
     "slug": "mock-post-4",
     "fileName": "mock-post-4.md",
+    "fileNamePl": "mock-post-4.pl.md",
     "title": "Very Long Mock Post (Draft)",
+    "titlePl": "Bardzo długi przykładowy wpis (Szkic)",
     "description": "This is a very long post that is currently a draft with many paragraphs.",
+    "descriptionPl": "To bardzo długi wpis, który jest obecnie szkicem i ma wiele akapitów.",
     "publishedAt": "2026-02-25",
     "status": "draft"
   }

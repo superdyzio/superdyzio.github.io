@@ -3,12 +3,16 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
+import { Locale, getTranslations } from '@/lib/i18n';
+
 interface AuthStatusProps {
   initialAuth: boolean;
+  locale: Locale;
 }
 
-export default function AuthStatus({ initialAuth }: AuthStatusProps) {
+export default function AuthStatus({ initialAuth, locale }: AuthStatusProps) {
   const [isAuth, setIsAuth] = useState(initialAuth);
+  const t = getTranslations(locale);
 
   useEffect(() => {
     setIsAuth(initialAuth);
@@ -26,14 +30,14 @@ export default function AuthStatus({ initialAuth }: AuthStatusProps) {
         onClick={handleLogout}
         className="text-gray-700 hover:text-blue-700 transition-colors dark:text-gray-300 dark:hover:text-blue-400"
       >
-        Logout
+        {t.nav.logout}
       </button>
     );
   }
 
   return (
     <Link href="/login" className="text-gray-700 hover:text-blue-700 transition-colors dark:text-gray-300 dark:hover:text-blue-400">
-      Login
+      {t.nav.login}
     </Link>
   );
 }

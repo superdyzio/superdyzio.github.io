@@ -4,6 +4,8 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 
+import { Locale } from '@/lib/i18n';
+
 const postsDirectory = path.join(process.cwd(), 'src/content/posts');
 const postsJsonPath = path.join(process.cwd(), 'src/content/posts.json');
 
@@ -22,15 +24,38 @@ export interface PostContent extends PostMeta {
 
 interface GetAllPostsOptions {
   includeDrafts?: boolean;
+  locale?: Locale;
+}
+
+interface RawPostMeta extends Omit<PostMeta, 'title' | 'description' | 'fileName'> {
+  title: string;
+  description: string;
+  fileName: string;
+  titlePl?: string;
+  descriptionPl?: string;
+  fileNamePl?: string;
+}
+
+function localizePostMeta(post: RawPostMeta, locale: Locale): PostMeta {
+  const isPolish = locale === 'pl';
+
+  return {
+    ...post,
+    title: isPolish ? (post.titlePl ?? post.title) : post.title,
+    description: isPolish ? (post.descriptionPl ?? post.description) : post.description,
+    fileName: isPolish ? (post.fileNamePl ?? post.fileName) : post.fileName,
+  };
 }
 
 export function getAllPosts(options: GetAllPostsOptions = {}): PostMeta[] {
   const fileContents = fs.readFileSync(postsJsonPath, 'utf8');
-  const posts: PostMeta[] = JSON.parse(fileContents);
+  const posts: RawPostMeta[] = JSON.parse(fileContents);
   const shouldHideDrafts = !options.includeDrafts;
+  const locale = options.locale ?? 'en';
   
   return posts
     .filter((post) => !shouldHideDrafts || post.status === 'published')
+    .map((post) => localizePostMeta(post, locale))
     .sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 }
 
