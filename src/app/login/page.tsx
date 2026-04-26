@@ -3,7 +3,10 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
+import { defaultLocale, getTranslations } from '@/lib/i18n';
+
 export default function LoginPage() {
+  const t = getTranslations(defaultLocale);
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -29,9 +32,9 @@ export default function LoginPage() {
         return;
       }
 
-      setError('Invalid password');
+      setError(t.login.invalidPassword);
     } catch {
-      setError('Login failed. Please try again.');
+      setError(t.login.loginFailed);
     } finally {
       setIsSubmitting(false);
     }
@@ -39,11 +42,11 @@ export default function LoginPage() {
 
   return (
     <div className="max-w-md mx-auto mt-8 sm:mt-12 md:mt-20 p-5 sm:p-8 border border-gray-200 rounded-lg shadow-sm bg-white dark:border-gray-800 dark:bg-gray-900">
-      <h1 className="text-2xl font-bold mb-6 text-gray-900 dark:text-gray-100">Admin Login</h1>
+      <h1 className="text-2xl font-bold mb-6 text-gray-900 dark:text-gray-100">{t.login.title}</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label htmlFor="password" className="block text-sm font-medium text-gray-700 mb-1 dark:text-gray-300">
-            Password
+            {t.login.password}
           </label>
           <input
             id="password"
@@ -65,7 +68,7 @@ export default function LoginPage() {
           disabled={isSubmitting}
           className="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition-colors font-medium"
         >
-          {isSubmitting ? 'Logging in...' : 'Login'}
+          {isSubmitting ? t.login.loggingIn : t.login.login}
         </button>
       </form>
     </div>

@@ -1,39 +1,28 @@
 import { Code2, Users, Presentation, Lightbulb } from 'lucide-react';
+import { getTranslations } from '@/lib/i18n';
+import { getLocaleFromCookies } from '@/lib/i18n.server';
 
-export default function OfferPage() {
-  const offers = [
-    {
-      title: "Product-Focused Engineering",
-      description: "I help teams turn ideas into working software quickly and responsibly. From architecture decisions to delivery details, I focus on building solutions that are maintainable and useful from day one.",
-      icon: <Code2 className="w-8 h-8" />,
-      features: ["Feature design & implementation", "Frontend architecture (React / Angular)", "Quality-focused delivery flow"]
-    },
-    {
-      title: "Talks & Workshops",
-      description: "I deliver practical, engaging sessions for meetups, conferences, and internal company events. Topics include frontend engineering, software quality, communication, and AI in everyday development.",
-      icon: <Presentation className="w-8 h-8" />,
-      features: ["Conference / meetup talks", "Hands-on internal workshops", "Event-tailored sessions"]
-    },
-    {
-      title: "Consulting & Mentoring",
-      description: "I support engineering teams and individual developers through focused mentoring and consulting. The goal is better decisions, clearer communication, and steady growth of technical leadership.",
-      icon: <Users className="w-8 h-8" />,
-      features: ["Architecture and codebase reviews", "1:1 mentoring for developers", "Team process improvements"]
-    },
-    {
-      title: "Product Discovery Support",
-      description: "When needed, I help shape early product direction so engineering effort lands on the right problems. This includes MVP scoping, prioritization, and workshop facilitation with stakeholders.",
-      icon: <Lightbulb className="w-8 h-8" />,
-      features: ["MVP scope and roadmap framing", "Workshop facilitation", "Problem-first feature prioritization"]
-    }
+export default async function OfferPage() {
+  const locale = await getLocaleFromCookies();
+  const t = getTranslations(locale);
+  const icons = [
+    <Code2 className="w-8 h-8" key="code" />,
+    <Presentation className="w-8 h-8" key="presentation" />,
+    <Users className="w-8 h-8" key="users" />,
+    <Lightbulb className="w-8 h-8" key="lightbulb" />,
   ];
+
+  const offers = t.offer.items.map((item, index) => ({
+    ...item,
+    icon: icons[index],
+  }));
 
   return (
     <div className="page-stack">
       <header className="page-header">
-        <h1 className="page-title">What I Offer</h1>
+        <h1 className="page-title">{t.simplePages.offerTitle}</h1>
         <p className="page-lead">
-          Practical support for teams and events that value quality, clarity, and real outcomes.
+          {t.simplePages.offerLead}
         </p>
       </header>
 
@@ -63,16 +52,16 @@ export default function OfferPage() {
 
       <div className="section-divider text-center space-y-6 sm:space-y-8">
         <div className="space-y-4">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-gray-100">Interested in a collaboration?</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-gray-100">{t.offer.collaborationTitle}</h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto dark:text-gray-300">
-            Tell me what you're building or planning, and I'll suggest a simple way we can work together.
+            {t.offer.collaborationLead}
           </p>
         </div>
         <a 
           href="/contact" 
           className="inline-flex items-center px-6 sm:px-8 py-3 sm:py-4 bg-blue-600 text-white font-bold rounded-xl hover:bg-blue-700 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-1"
         >
-          Contact me today
+          {t.common.getInTouch}
         </a>
       </div>
     </div>
