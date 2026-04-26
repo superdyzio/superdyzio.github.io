@@ -35,6 +35,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] Lunch & Learn @ Altium (#16)
 - [EN] [Nx Wrocław #2](https://www.youtube.com/watch?v=olpkD-lUePg) (#17)
 - [PL] [Dev.js summit spring edition](https://www.youtube.com/watch?v=OraYiRWuiJ8) (#13)
+- [PL] [4 Developers Warszawa](https://4developers.org.pl/) program committee ("AI in Practice" and "Programming Mix" tracks) + moderator of the discussion panel "SDLC 2.0: AI w praktyce - bez ściemy" (AI in Practice) + panelist in the discussion panel "No i UI - czy obecny frontend czeka zagłada? Przyszłość komunikacji - człowiek - komputer." (Programming Mix)
 
 ### 2025
 - [PL] Mentor @ [BKI Hack hackathon](https://bkihack.pl/history/8-bydgoski-hackathon)
