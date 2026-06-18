@@ -63,6 +63,7 @@ export default async function SpeakerPage() {
             <li>[PL] Jak projektowana jest elektronika, której używasz na co dzień?</li>
             <li>[EN/PL] Has AI already taken over your company?</li>
             <li>[EN] Nx vs. Turborepo: A monorepo case study</li>
+            <li>[EN] How to AI incorrectly?</li>
           </ol>
         </div>
       </section>
@@ -84,6 +85,10 @@ export default async function SpeakerPage() {
               <li>[PL] <a href="https://www.merito.pl/poznan/studia-i-szkolenia/studia-podyplomowe/kierunki/zarzadzanie-projektem-akademia-project-managera-0" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors dark:text-blue-400 dark:hover:text-blue-300">WSB Merito Akademia Project Managera</a> - conducting one day of workshops about Agile methodologies, MVP, identifying personas, project roadmaps, Event Storming, User Story Mapping, etc.</li>
               <li>[PL] <a href="https://www.youtube.com/watch?v=OraYiRWuiJ8" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors dark:text-blue-400 dark:hover:text-blue-300">Dev.js summit spring edition</a> (#13)</li>
               <li>[PL] <a href="https://4developers.org.pl/" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors dark:text-blue-400 dark:hover:text-blue-300">4 Developers Warszawa</a> program committee (“AI in Practice” and “Programming Mix” tracks) + moderator of the discussion panel “SDLC 2.0: AI w praktyce - bez ściemy” (AI in Practice) + panelist in the discussion panel “No i UI - czy obecny frontend czeka zagłada? Przyszłość komunikacji - człowiek - komputer.” (Programming Mix)</li>
+              <li>[PL] <a href="https://crossweb.pl/wydarzenia/64-meet-js-bialystok/" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors dark:text-blue-400 dark:hover:text-blue-300">Meet.js Białystok #64</a> (#15)</li>
+              <li>[PL] <a href="https://app.evenea.pl/event/techtalk2katowice/" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors dark:text-blue-400 dark:hover:text-blue-300">Tech Talk MeetUp Katowice #2</a> (#13)</li>
+              <li>[EN] <a href="https://m.devoxx.com/events/devoxxpl26/talks/9621/how-to-ai-incorrectly" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors dark:text-blue-400 dark:hover:text-blue-300">Devoxx Poland 2026</a> (#18)</li>
+              <li>[PL] <a href="https://m.devoxx.com/events/devoxxpl26/talks/9623/angular-forms-showdown" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors dark:text-blue-400 dark:hover:text-blue-300">Devoxx Poland 2026</a> (#13)</li>
             </ul>
           </div>
 
