@@ -41,7 +41,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] [Meet.js Białystok #64](https://crossweb.pl/wydarzenia/64-meet-js-bialystok/) (#15)
 - [PL] [Tech Talk MeetUp Katowice #2](https://app.evenea.pl/event/techtalk2katowice/) (#13)
 - [EN] [Devoxx Poland 2026](https://m.devoxx.com/events/devoxxpl26/talks/9621/how-to-ai-incorrectly) (#18)
-- [PL] [Devoxx Poland 2026](https://m.devoxx.com/events/devoxxpl26/talks/9621/how-to-ai-incorrectly) (#13)
+- [PL] [Devoxx Poland 2026](https://m.devoxx.com/events/devoxxpl26/talks/9623/angular-forms-showdown) (#13)
 
 ### 2025
 - [PL] Mentor @ [BKI Hack hackathon](https://bkihack.pl/history/8-bydgoski-hackathon)
