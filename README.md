@@ -27,6 +27,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 15. [PL] Jak projektowana jest elektronika, której używasz na co dzień?
 16. [EN/PL] Has AI already taken over your company?
 17. [EN] NX vs. Turborepo: A monorepo case study
+18. [EN] How to AI incorrectly?
 
 ## Activities and appearances
 
@@ -38,6 +39,9 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] [Dev.js summit spring edition](https://www.youtube.com/watch?v=OraYiRWuiJ8) (#13)
 - [PL] [4 Developers Warszawa](https://4developers.org.pl/) program committee ("AI in Practice" and "Programming Mix" tracks) + moderator of the discussion panel "SDLC 2.0: AI w praktyce - bez ściemy" (AI in Practice) + panelist in the discussion panel "No i UI - czy obecny frontend czeka zagłada? Przyszłość komunikacji - człowiek - komputer." (Programming Mix)
 - [PL] [Meet.js Białystok #64](https://crossweb.pl/wydarzenia/64-meet-js-bialystok/) (#15)
+- [PL] [Tech Talk MeetUp Katowice #2](https://app.evenea.pl/event/techtalk2katowice/) (#13)
+- [EN] [Devoxx Poland 2026](https://m.devoxx.com/events/devoxxpl26/talks/9621/how-to-ai-incorrectly) (#18)
+- [PL] [Devoxx Poland 2026](https://m.devoxx.com/events/devoxxpl26/talks/9621/how-to-ai-incorrectly) (#13)
 
 ### 2025
 - [PL] Mentor @ [BKI Hack hackathon](https://bkihack.pl/history/8-bydgoski-hackathon)
