@@ -42,6 +42,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] [Tech Talk MeetUp Katowice #2](https://app.evenea.pl/event/techtalk2katowice/) (#13)
 - [EN] [Devoxx Poland 2026](https://m.devoxx.com/events/devoxxpl26/talks/9621/how-to-ai-incorrectly) (#18)
 - [PL] [Devoxx Poland 2026](https://m.devoxx.com/events/devoxxpl26/talks/9623/angular-forms-showdown) (#13)
+- [PL] [Build with AI Wrocław](https://gdg.community.dev/events/details/google-gdg-wroclaw-presents-build-with-ai-wroclaw-architecting-the-future-of-products/) Program Committee, leader and speaker on the first day of the event "Product Design, Scope & MVP", mentor, hackathon judge
 
 ### 2025
 - [PL] Mentor @ [BKI Hack hackathon](https://bkihack.pl/history/8-bydgoski-hackathon)
