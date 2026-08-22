@@ -90,6 +90,7 @@ export default async function SpeakerPage() {
               <li>[EN] <a href="https://m.devoxx.com/events/devoxxpl26/talks/9621/how-to-ai-incorrectly" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors dark:text-blue-400 dark:hover:text-blue-300">Devoxx Poland 2026</a> (#18)</li>
               <li>[PL] <a href="https://m.devoxx.com/events/devoxxpl26/talks/9623/angular-forms-showdown" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors dark:text-blue-400 dark:hover:text-blue-300">Devoxx Poland 2026</a> (#13)</li>
               <li>[PL] <a href="https://gdg.community.dev/events/details/google-gdg-wroclaw-presents-build-with-ai-wroclaw-architecting-the-future-of-products/" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors dark:text-blue-400 dark:hover:text-blue-300">Build with AI Wrocław</a> Program Committee, leader and speaker on the first day of the event “Product Design, Scope & MVP”, mentor, hackathon coordinator, leader and judge</li>
+              <li>[EN] Tech Talks @ Altium (#18) (also leading the whole initiative internally)</li>
             </ul>
           </div>
 
