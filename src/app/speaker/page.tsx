@@ -64,6 +64,7 @@ export default async function SpeakerPage() {
             <li>[EN/PL] Has AI already taken over your company?</li>
             <li>[EN] Nx vs. Turborepo: A monorepo case study</li>
             <li>[EN] How to AI incorrectly?</li>
+            <li>[PL] Zwolnili Product Ownera, bo mają subskrypcję Kiro. Kronika absurdów z konsultingu</li>
           </ol>
         </div>
       </section>
@@ -92,6 +93,7 @@ export default async function SpeakerPage() {
               <li>[PL] <a href="https://gdg.community.dev/events/details/google-gdg-wroclaw-presents-build-with-ai-wroclaw-architecting-the-future-of-products/" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors dark:text-blue-400 dark:hover:text-blue-300">Build with AI Wrocław</a> Program Committee, leader and speaker on the first day of the event “Product Design, Scope & MVP”, mentor, hackathon coordinator, leader and judge</li>
               <li>[EN] Tech Talks @ Altium (#18) (also leading the whole initiative internally)</li>
               <li>[PL] <a href="https://crossweb.pl/wydarzenia/phpers-wroclaw-24/" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors dark:text-blue-400 dark:hover:text-blue-300">PHPers Wrocław #24</a> (#18)</li>
+              <li>[PL] <a href="https://www.beyondcode.pl/" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors dark:text-blue-400 dark:hover:text-blue-300">Beyond Code</a> (#19) + co-moderator of the discussion panel "AI, człowiek i etyka w zespole IT"</li>
             </ul>
           </div>
 
