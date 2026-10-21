@@ -28,6 +28,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 16. [EN/PL] Has AI already taken over your company?
 17. [EN] NX vs. Turborepo: A monorepo case study
 18. [EN/PL] How to AI incorrectly?
+19. [PL] Zwolnili Product Ownera, bo mają subskrypcję Kiro. Kronika absurdów z konsultingu
 
 ## Activities and appearances
 
@@ -45,6 +46,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] [Build with AI Wrocław](https://gdg.community.dev/events/details/google-gdg-wroclaw-presents-build-with-ai-wroclaw-architecting-the-future-of-products/) Program Committee, leader and speaker on the first day of the event "Product Design, Scope & MVP", mentor, hackathon coordinator, leader and judge
 - [EN] Tech Talks @ Altium (#18) (also leading the whole initiative internally)
 - [PL] [PHPers Wrocław #24](https://crossweb.pl/wydarzenia/phpers-wroclaw-24/) (#18)
+- [PL] [Beyond Code](https://www.beyondcode.pl/) (#19) + co-moderator of the discussion panel "AI, człowiek i etyka w zespole IT"
 
 ### 2025
 - [PL] Mentor @ [BKI Hack hackathon](https://bkihack.pl/history/8-bydgoski-hackathon)
