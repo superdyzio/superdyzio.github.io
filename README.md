@@ -29,6 +29,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 17. [EN] NX vs. Turborepo: A monorepo case study
 18. [EN/PL] How to AI incorrectly?
 19. [PL] Zwolnili Product Ownera, bo mają subskrypcję Kiro. Kronika absurdów z konsultingu
+20. [EN] How to win a hackathon?
 
 ## Activities and appearances
 
@@ -47,6 +48,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [EN] Tech Talks @ Altium (#18) (also leading the whole initiative internally)
 - [PL] [PHPers Wrocław #24](https://crossweb.pl/wydarzenia/phpers-wroclaw-24/) (#18)
 - [PL] [Beyond Code](https://www.beyondcode.pl/) (#19) + co-moderator of the discussion panel "AI, człowiek i etyka w zespole IT"
+- [PL] Mentor, lead judge & speaker @ [HackYeah hackathon](https://hackyeah.pl/pl/) (#20)
 
 ### 2025
 - [PL] Mentor @ [BKI Hack hackathon](https://bkihack.pl/history/8-bydgoski-hackathon)
