@@ -97,6 +97,7 @@ export default async function SpeakerPage() {
               <li>[PL] <a href="https://www.beyondcode.pl/" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors dark:text-blue-400 dark:hover:text-blue-300">Beyond Code</a> (#19) + co-moderator of the discussion panel "AI, człowiek i etyka w zespole IT"</li>
               <li>[PL] Mentor, lead judge & speaker @ <a href="https://hackyeah.pl/pl/" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors dark:text-blue-400 dark:hover:text-blue-300">HackYeah hackathon</a> (#20)</li>
               <li>[PL] <a href="https://4developers.org.pl/" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors dark:text-blue-400 dark:hover:text-blue-300">4 Developers Katowice</a> program committee ("AI in Practice" track) + moderator of the discussion panel "Zakaz mówienia „to zależy” - pokłóćmy się o AI"</li>
+              <li>[PL] <a href="https://crossweb.pl/wydarzenia/meet-js-lodz-10-2026/" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors dark:text-blue-400 dark:hover:text-blue-300">Meet.js Łódź</a> (#14)</li>
             </ul>
           </div>
 
