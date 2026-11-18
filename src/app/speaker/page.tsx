@@ -81,6 +81,8 @@ export default async function SpeakerPage() {
             <div className="absolute left-[-4px] top-2 w-2 h-2 rounded-full bg-blue-600 ring-4 ring-white dark:ring-gray-950"></div>
             <h3 className="text-xl font-bold mb-6 text-gray-900 dark:text-gray-100">2026</h3>
             <ul className="space-y-4 list-disc ml-6 text-gray-700 dark:text-gray-200">
+              <li>[PL] co-organizer of <a href="https://www.meetup.com/pl-PL/angularwroclaw/" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors dark:text-blue-400 dark:hover:text-blue-300">Angular Wrocław</a></li>
+              <li>[PL] member of <a href="https://gdg.community.dev/gdg-wroclaw/" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors dark:text-blue-400 dark:hover:text-blue-300">GDG Wrocław</a></li>
               <li>[PL] Mentor (online) @ <a href="https://criticalhackathon.com/" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors dark:text-blue-400 dark:hover:text-blue-300 dark:text-blue-400 dark:hover:text-blue-300">European Critical Infrastructure Hackathon</a></li>
               <li>[PL] Lunch & Learn @ Altium (#16)</li>
               <li>[EN] <a href="https://www.youtube.com/watch?v=olpkD-lUePg" className="text-blue-600 hover:text-blue-800 underline decoration-blue-600/30 underline-offset-4 transition-colors dark:text-blue-400 dark:hover:text-blue-300">Nx Wrocław #2</a> (#17)</li>
