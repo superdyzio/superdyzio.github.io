@@ -51,6 +51,7 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 - [PL] Mentor, lead judge & speaker @ [HackYeah hackathon](https://hackyeah.pl/pl/) (#20)
 - [PL] [4 Developers Katowice](https://4developers.org.pl/) program committee ("AI in Practice" track) + moderator of the discussion panel "Zakaz mówienia „to zależy” - pokłóćmy się o AI"
 - [PL] [Meet.js Łódź](https://crossweb.pl/wydarzenia/meet-js-lodz-10-2026/) (#14)
+- [EN] [Google DevFest 2026 Wrocław](https://gdg.community.dev/events/details/google-gdg-wroclaw-presents-google-devfest-2026-wroclaw/) (#18) + co-organizer + moderator of the discussion panel "No “It Depends” Allowed – Let’s Argue About AI"
 
 ### 2025
 - [PL] Mentor @ [BKI Hack hackathon](https://bkihack.pl/history/8-bydgoski-hackathon)
