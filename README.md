@@ -34,6 +34,8 @@ _I'd be very happy to visit your event or company with one of these, just [let m
 ## Activities and appearances
 
 ### 2026
+- [PL] co-organizer of [Angular Wrocław](https://www.meetup.com/pl-PL/angularwroclaw/)
+- [PL] member of [GDG Wrocław](https://gdg.community.dev/gdg-wroclaw/)
 - [PL] Mentor (online) @ [European Critical Infrastructure Hackathon](https://criticalhackathon.com/)
 - [PL] Lunch & Learn @ Altium (#16)
 - [EN] [Nx Wrocław #2](https://www.youtube.com/watch?v=olpkD-lUePg) (#17)
