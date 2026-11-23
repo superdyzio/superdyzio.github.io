@@ -3,7 +3,7 @@
 import { useTransition } from 'react';
 import { useRouter } from 'next/navigation';
 
-import { LOCALE_COOKIE_NAME, Locale, getTranslations } from '@/lib/i18n';
+import { LOCALE_COOKIE_NAME, type Locale, getTranslations } from '@/lib/i18n';
 
 interface LanguageSwitcherProps {
   locale: Locale;

@@ -4,7 +4,7 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 
-import { Locale } from '@/lib/i18n';
+import type { Locale } from '@/lib/i18n';
 
 const postsDirectory = path.join(process.cwd(), 'src/content/posts');
 const postsJsonPath = path.join(process.cwd(), 'src/content/posts.json');

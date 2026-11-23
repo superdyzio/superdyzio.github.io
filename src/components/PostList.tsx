@@ -1,8 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import { PostMeta } from '@/lib/posts';
-import { Locale, formatDate, getTranslations } from '@/lib/i18n';
+import type { PostMeta } from '@/lib/posts';
+import { type Locale, formatDate, getTranslations } from '@/lib/i18n';
 
 interface PostListProps {
   posts: PostMeta[];

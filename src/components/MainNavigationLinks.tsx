@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 import AuthStatus from '@/components/AuthStatus';
-import { Locale, getTranslations } from '@/lib/i18n';
+import { type Locale, getTranslations } from '@/lib/i18n';
 
 const baseNavLinkClassName = 'transition-colors whitespace-nowrap';
 const inactiveNavLinkClassName = 'text-gray-700 hover:text-blue-700 dark:text-gray-300 dark:hover:text-blue-400';
